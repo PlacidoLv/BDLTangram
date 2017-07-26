@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.license      = {
     :type => 'MIT'
   }
-  s.author       = { "PlacidoLv" => “723691619@qq.com" }
+  s.author       = { "PlacidoLv" => "723691619@qq.com" }
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
   s.requires_arc = true

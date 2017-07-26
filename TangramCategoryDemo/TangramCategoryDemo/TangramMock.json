@@ -1,0 +1,97 @@
+ [
+  
+  {
+  "type": "5",
+  "indicatorPosition": "inside",
+  "style": {
+  "cols" : [30,70],
+  },
+  "items": [
+            {
+            "type": "10",
+            "data":[
+                    {
+                    "id":1,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":0
+                    },{
+                    "id":2,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":0
+                    },{
+                    "id":3,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    
+                    "parentId":0
+                    },{
+                    "id":4,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":0
+                    },{
+                    "id":5,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":0
+                    }
+                    ],
+            "imgUrl": "http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg"
+            },{
+            "type": "10",
+            "data":[
+                    {
+                    "id":6,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":1
+                    },{
+                    "id":7,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":1
+                    },{
+                    "id":8,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":2
+                    },{
+                    "id":9,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":2
+                    },{
+                    "id":10,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":3
+                    },{
+                    "id":10,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":3
+                    },{
+                    "id":11,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":3
+                    },{
+                    "id":12,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":3
+                    },{
+                    "id":13,
+                    "name":"热门商品",
+                    "imageUrl":"http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg",
+                    "parentId":3
+                    }
+                    ],
+            "imgUrl": "http://7xojj3.com1.z0.glb.clouddn.com/image/banner/1499940823281145.jpg"
+            }
+            ]
+  }
+  
+  ]

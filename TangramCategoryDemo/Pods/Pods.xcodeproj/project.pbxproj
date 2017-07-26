@@ -1,0 +1,1720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E09711F001C49F92A97060414E262B /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B67290E3519EDCBE0496E6D7740806FB /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		032E6A6C490EE51B50CFF981B4F9FE5B /* TangramElementHeightProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = C89CE94E5EBDD8EAD2DA4CC05A3D6BB7 /* TangramElementHeightProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		06594CD4E4479BCCCAC231E58E6D27DA /* SDWebImageDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = F562EAEC2D639A4C524E509132B8BEB6 /* SDWebImageDecoder.m */; };
+		076C0B0BECAFE310C641380A3D1F82D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80265C5BF36CD2F81E4A8EFBF85AF93 /* Foundation.framework */; };
+		0856DF808F9F39746C7BEF1D05BDE4D9 /* TangramSingleColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 339984A0549C0533DFF1BFA8D35C7D1C /* TangramSingleColumnLayout.m */; };
+		0A10CF8194690190CCE61A12B16BEB91 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3647A4DCDAB15C5BF6DEB178AC6B2199 /* Reachability-dummy.m */; };
+		0AD714906B0DDD3EC297F2F18D01071E /* TangramDoubleColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 06A57603FCCE3D40B2D977F416F02CBB /* TangramDoubleColumnLayout.m */; };
+		0E39412A14F45C801275957612C2E9AB /* TMMuiLazyScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E293CC544E194E257D00A9A78253881 /* TMMuiLazyScrollView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		1076E9F1C6D19BD69A978F0CF1862E9C /* TangramBusIndexTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF7065AE69F8AD54AFA27037F86B1E9 /* TangramBusIndexTopic.m */; };
+		1157FCE052F62A7AA3651C0507AEE8DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80265C5BF36CD2F81E4A8EFBF85AF93 /* Foundation.framework */; };
+		11E096CA176E626155FADA5F03C6A93B /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 02854E76061FCEB1AAF1FD4B135F764C /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12936EFF8FC1660165E1856B3DEC7995 /* TangramFixLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0C6C66916E7A14F93FB6C6A68EE0F8 /* TangramFixLayout.m */; };
+		132073E54854F0B9328AF18DB2402E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80265C5BF36CD2F81E4A8EFBF85AF93 /* Foundation.framework */; };
+		13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = B40792E7ED1F1F00F5F013570ACC8B66 /* MASViewAttribute.m */; };
+		139AC5E749AA09944144DD74642FD7E5 /* TangramLayoutFactoryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 95A608653D5EDD84CB131CA38ECD38E0 /* TangramLayoutFactoryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		143197C8D6CD929B0DBEE5CF7CB2E3D5 /* TangramWaterFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 84965B549649EBA5B94C72C74B4FBCBD /* TangramWaterFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		154CF23C61F0C4FD43BFED2DFB2CDA95 /* TangramBus.m in Sources */ = {isa = PBXBuildFile; fileRef = AD76D72E7765628E70890D7E3B0B64BB /* TangramBus.m */; };
+		15562E76CD6C512823754C2C9E932F74 /* TangramPageScrollLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3FEFB3CA5E7E74C8AE6B5C9257572D /* TangramPageScrollLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F3BD3BC28432BB5E2F73501E06E4579 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 09CEFABC34C3487DBE34116DEDF07869 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F96F1F36014FE688DB76369895CAF84 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4564038AC3D65D413CA85CB8D92A52DE /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC1E4B518B0A3F2415E739A1C292C62 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3069501E88FE3892AF65590D9EEE854D /* ImageIO.framework */; };
+		234E6711C6AF2297630808303A57CCC2 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB9C1CD1EEBD89943B4321B034C4A63 /* UIButton+WebCache.m */; };
+		25992E0CABEB81255808C617F26D4BF4 /* TangramBus.h in Headers */ = {isa = PBXBuildFile; fileRef = 361E150B71C41B4DA978F7C1C3568294 /* TangramBus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2649700C9BAC0F5AE505FC9FA28EB462 /* TangramDoubleColumnLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 85F55C028BAE248DD2655F5E2C12572A /* TangramDoubleColumnLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A7FCFDD82BD52DA170BB1BD5AF0D462 /* TangramPageScrollLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BC16F8592DE67831DFCC60EF64DF6538 /* TangramPageScrollLayout.m */; };
+		2B38A4A632BD3D498C35A1E70B15D5A6 /* TangramContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 1426528F59C9E215EA672CA8FF98D73F /* TangramContext.m */; };
+		2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 671A473F0050EE5B1560C866E24FC459 /* MASViewConstraint.m */; };
+		2ED05AD9965CC98013F19D482442CCB5 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1B64BAF721A94D46BA6400A69B5578 /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F3908C9FB41A837D2748BDF0E6D3AFA /* Tangram-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C06A5645BDBD1D2911CF09592F9F92F5 /* Tangram-dummy.m */; };
+		316C59BDB8D1ADC1421B1C634EB86085 /* TangramFixLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA4FCAC2C6C53213D51B93B51491D9D /* TangramFixLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32FCDEAE48366EF9BA275BA614CB2D8E /* TangramContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 4737CDDDB659BAC3E7A129840BA6E2BA /* TangramContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		337767C6A68C8831EFC01E5A63CF4F22 /* TangramTetradColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C8E5250F275F7B5C26ECD05BF46973FB /* TangramTetradColumnLayout.m */; };
+		35BBC1457998C33DEE5DA8A88C59AB7C /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF38053670D1B16B37F2691F217301C7 /* SDWebImage-dummy.m */; };
+		378FD80F2B148646E0785FD95E456034 /* TangramEventQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = E9C6C374465E195EF231635F631C9BDB /* TangramEventQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AAEF706E917518B9A634AD0175C728E /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9710410C6DDD81F68F30F8F7A3069538 /* SDImageCache.m */; };
+		3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6E14F592ADC0FA191FDB5C7229149 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		407087DF25533E5438C08E53DB06DAA3 /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = DF3E1E6BE2ACBF0651B6E249AA7EC0EA /* SDWebImageCompat.m */; };
+		42569F1EA853CB831325D84D4C11832B /* TangramBusIndexClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4765277034F3FA0C9F4F45090ADEA8 /* TangramBusIndexClass.m */; };
+		42BFF6E4E137451EBD344609F49D1844 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A0A5EB369DA723E8F11B0C5A95B65E /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43F0C8975A7D9AD27B44F17FE68B8E9F /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0A29E9F679E4CE22C6522E56DEB8D6 /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46D7B90CB0734941771F0720CB19E3B5 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BA4DCFB056F6F0C5FEFBCF443FF6048 /* NSData+ImageContentType.m */; };
+		475019CF122019F39FC31E129C7514D9 /* TangramView.m in Sources */ = {isa = PBXBuildFile; fileRef = F82E3BFF5868E1B98A11D33C8116C575 /* TangramView.m */; };
+		4890173ED4D2E25036802F844E442F35 /* TangramStickyBottomLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 61226FE2D23A6BA5C067612C93CADB1F /* TangramStickyBottomLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490CA524521F7D444EA58FA915D7E99C /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ED3A714DB8F2C479756FB8F07B10906 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49B392E940E679166AA9F6EE78ADE11A /* TangramSingleColumnLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = BB44D9831E00BA4E92AEE74988F77C83 /* TangramSingleColumnLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49B903D576E09560C52AA92FDCC31A68 /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0520BEF8A7B9F3F5588CCC2962E8D601 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49C1201EAD6F20B4630674E4B38F3CD2 /* TangramFixBottomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D59485B74C82F45A9956C1A2C22CBB6F /* TangramFixBottomLayout.m */; };
+		4B859837E9ACD862E6F08A90C7E7F340 /* TangramStickyBottomLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 170DF30B07ACDB9222B74D8DCA9A0690 /* TangramStickyBottomLayout.m */; };
+		4CBE1B46550A3FB90FDD1CB9CBA7B7FE /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BDE14335FC15B0815E1A380D92204CB /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52C6979A3085FAFD84CE3A8E810858FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80265C5BF36CD2F81E4A8EFBF85AF93 /* Foundation.framework */; };
+		55329E994A171C13F9C1264D5BACF2AA /* TangramFixBottomLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C1847E245F0440868739F98141B91057 /* TangramFixBottomLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56A1F0D53259D1A63FDFFEC58C742537 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D1C98B12875CF84F00C54A275D20CB /* UIImage+MultiFormat.m */; };
+		56A6553D488A5F80F145236213ABE496 /* TangramFixTopLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A2157C1D5D61E84A06BF860520D00C /* TangramFixTopLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		570A919089B441CDAC209333AE6A01E1 /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B4CE741AAFF0F5FC995B093ADC84C1B /* UIImageView+WebCache.m */; };
+		5AF445D7C129296547A92C61D89FA4A5 /* TangramWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 442F08EE04CDCA665CB70B9B81E44FC9 /* TangramWaterFlowLayout.m */; };
+		5B3C8C4D335D9591A1140CC35C3EAD02 /* UIView+Tangram.m in Sources */ = {isa = PBXBuildFile; fileRef = B826657C532E4DFADED7977088B6FBCD /* UIView+Tangram.m */; };
+		5E5C21CD36A869D28CF89142479CDEF7 /* TangramView.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C263D53C8479D0278D7C53033FB003 /* TangramView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 531714D1EED31AA82B767E815C3870A2 /* MASCompositeConstraint.m */; };
+		6209E20926D79222E59F58B962BFAA1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6FC0383B79DB22461CD4404318F1EB5 /* UIKit.framework */; };
+		6249770A7D163B0F3001D5A76C5FA01C /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8410CA0CB6E3D84CCC9BBAAA0D996839 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64D7E682B8421D6A7CED13B73C9D50B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80265C5BF36CD2F81E4A8EFBF85AF93 /* Foundation.framework */; };
+		64FC5DA1E31B2C9F73E4D042DDCE2DE2 /* TangramElementFactoryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D5A204A03972B395EF4078D349C82CB /* TangramElementFactoryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6509D23D5F1092B8BF4AEBC035126169 /* TangramEventQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AB690B6784A35E91E7B2277368E4038 /* TangramEventQueue.m */; };
+		68E98BAD1D0007B8C851AD59D2FE4E0C /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DA4BCB43AFCEDB711FB96B5B05292A7 /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C13C90B1269235AED52330D3F5B4D7EC /* Masonry-dummy.m */; };
+		693C58370D6EE45EDD039E9F86817461 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FC958484DAF7BE38E3A268D69E13188 /* Reachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69712E6DD412A26301C196C5C1434A3D /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 431126FBEF81A5152F7F377621D37D99 /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AF3AAC3D0C2961F16CC58F7E68A4380 /* TangramBusIndexTopic.h in Headers */ = {isa = PBXBuildFile; fileRef = EF39820F03FA8AE78B77560531185C96 /* TangramBusIndexTopic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D85F0F117E65A5B542DEF3870B21BBF /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1F94CD12085AA86A5CAE96DF3B6605 /* Reachability.m */; };
+		6E21E3839EE6B24A96A0FCCB0E5987E3 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = B513D999A99397DDC925E1C17AD4333A /* SDWebImagePrefetcher.m */; };
+		6F612B6A08D432BE3CE40D75493B64D1 /* TangramEventDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B20982476EBD242506701AF38965ED /* TangramEventDispatcher.m */; };
+		71C9A6149E39E755BBBE1F08964EA335 /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F8B55BA309A4E7D2FFB1BC157B20AED0 /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7692BD1B4410F5C546A222E5E414263A /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = D9181BAEB6934C95B83675190EC5F71F /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78DA098FC8D9B02E647502EA225AB687 /* Pods-TangramCategoryDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0608F57F0E42D5FD64685A388DEC24BC /* Pods-TangramCategoryDemo-dummy.m */; };
+		7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A07387A44D20660264B953260AF4A3C /* NSArray+MASAdditions.m */; };
+		7DA58458F6528107FDDE0706ABEFE869 /* LazyScroll-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C461DE8D92C74B0304FBB2BF07475C67 /* LazyScroll-dummy.m */; };
+		7F89828FD965DBCBEBDFA970266839CA /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 750439C17DA4A53F555FF061FE3A002E /* SDWebImageDownloaderOperation.m */; };
+		811906F4253B3BDCAB3F18AA9E380B24 /* TangramEasyElementProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = BB9B45555A750761B37920179BB27480 /* TangramEasyElementProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81E1C453C000C0E11DDBFBA9017B0152 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = B63C4D3A30284733C617010F011BE4AB /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86EE1CB5473A4A07081D8DE3A2C45924 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BA3889B3F3FB87EE83901DE85C1EF871 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8896A6B70A2232C93AE10DE75AB03947 /* TangramBusIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F03FBDCDFE40A3EA936DF2F245B8CB /* TangramBusIndex.m */; };
+		89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F040DB6ABE0971FAC84F6DDE22A0A23 /* MASConstraint.m */; };
+		8A180775A2501AFC69A8E6125BC5C61E /* TangramFixTopLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 088DC14A266111B37A67F0F8117664A0 /* TangramFixTopLayout.m */; };
+		8B1B2997F0A41B91DD097B5A3F9B7032 /* TangramDragableLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E4CC8C6794C038BEA44319CF7188FBC6 /* TangramDragableLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CEF1BB19B905D1BEF2FA1E76AB453C3 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2E2B649D7DAA51C633149C68E0E8F6 /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4286C91E0FD08F814A895592E03375 /* TangramDefaultLayoutFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ACDDE706CA95821B9A2E2ABDE5BEC2C /* TangramDefaultLayoutFactory.m */; };
+		8F230D18B19FEC118267829A80DE81C6 /* TangramBusIndexClass.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FC4405F0D547A1DB30D7A108C0242DB /* TangramBusIndexClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F89752C6D53796A8B3E6F74AB58E050 /* TangramFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 760FC60E012BD8FE9D02A2517E6686C8 /* TangramFlowLayout.m */; };
+		916928EC565AA85E0F95451478D6C695 /* TangramTribleColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 028FCAB0D7588EFDCBF510521A1AAA59 /* TangramTribleColumnLayout.m */; };
+		94017F46BF82F63BD928B11872453889 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D8BF5C65A58E4FFCCAFFD86AAF7835B /* SystemConfiguration.framework */; };
+		955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7CB0B9BE42A5967C006EA67C9B5609 /* MASLayoutConstraint.m */; };
+		964DCEA14338C2B5BA97DA8D9E1AFE65 /* TangramDragableLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6F24D2A8084CBA2CE0B2C7DC8C186C /* TangramDragableLayout.m */; };
+		9825A7B55B582FB82CF2B8C925BD170C /* TangramDefaultItemModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C04A59D5CF197AD21FACE435C2F3E2 /* TangramDefaultItemModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		983CB852CBBFBC04C2A6BA407E34F59B /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF05B4872C7BDE964348BC787163FE8E /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9934AEA2C891C201D8ED5746FF42FE1B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C6279B90734230DC5334181CD1878EA /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99EC2CE4AD2803D8C9E2085D12C7A929 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2D93D44265AE1A9F42B85515F9360A /* UIView+WebCacheOperation.m */; };
+		9CC99FC323A74171E8FD36CF4014A43A /* TangramDefaultElementFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = AC49F4FFA41ACE2F0C7765F6EE21CD48 /* TangramDefaultElementFactory.m */; };
+		9CE12926741EED0D2DD3F25124F553CD /* TangramEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C5B8025AF3F8CC29BFA656DB39038CF /* TangramEvent.m */; };
+		A1C00F2AD0991604059A3120C8C95F2C /* TangramDefaultLayoutFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EEF451F1E62424C5E3E54F58AAC4E1B /* TangramDefaultLayoutFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1968ABDDECC5F58F924721F15A938350 /* View+MASAdditions.m */; };
+		A48C28A8366A89AC81255B5CC3EFF753 /* TangramStickyLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = E65682923CAEAA5AB5B05454CC61CBAB /* TangramStickyLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A50DE893E56B04771A190FD0AC62D5DF /* TangramItemModelFactoryProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 75563FC0F0A0D9C8F519C94186B33911 /* TangramItemModelFactoryProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6436E3CFFCBFE591E2D2A68ED90CAC6 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C8513AD3E47FAA779335255B98E941C1 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83991D7C1373DF66020C2FDFC5D7564 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = ACE51406277E60D09755E6841B3C028B /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB2E0674C62BC3CBCEA839075307DF1A /* TangramStickyLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D3D2C503FD61E412FF53B34FF1CD82A /* TangramStickyLayout.m */; };
+		ACAF9EF0E9FC2E40A22335EF2C624389 /* TangramDefaultDataSourceHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8873AFB01F9429DB46F826B3F20C850B /* TangramDefaultDataSourceHelper.m */; };
+		B174E978959BB314DFD2C7D118E0B0EA /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A9ED3BDEF17EC8D75088754242F6F4F /* SDWebImageManager.m */; };
+		B291511BAB500708D02EBEF78756E332 /* TMMuiLazyScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F54D4C560F03D566D86D3E8E056DC85 /* TMMuiLazyScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3FC38F9F869FAD59AA08EE646952E5B /* TangramTribleColumnLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = AA7C1F21D72BC2A9532E36A7C493D998 /* TangramTribleColumnLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B98771D46E47404CDE82DD0483AB3D60 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C796B2C8316DCC6CD8C5FA794F48FCF3 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB0D099040B24B15F5B43438DB3A74EF /* TangramLayoutProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B82FAA10E7773518FDAE4B486C8A6448 /* TangramLayoutProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB73B03DA06427E5ADEAB24AE4EC7197 /* TangramTetradColumnLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 176349AA430AAA1CFA889BB27F4599B3 /* TangramTetradColumnLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE51A4E84A92EA0F173A8284D0ED4CC5 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E4776FBC2D7442169FF306BAF5275F6 /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFF37AFB4886E3C48F623CB7F9FEE001 /* TangramLayoutParseHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB4D9F92082C350DBF6310FF4C6C1E0 /* TangramLayoutParseHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C364BB22EAC9A2A04B553DD3F18A6BA5 /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 33521A3CD72B77195292A4FBEE5BF6DD /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C88F85D3200060BD98FC13EA58121706 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DB8D6ED0FB2F24DEC9F05B2FB16F15 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDE1B3CC0BB4F6DA1A8DD21877E5F3CD /* TangramSingleAndDoubleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 873895C20B8F59A59374E1032D38D6D8 /* TangramSingleAndDoubleLayout.m */; };
+		CDFE0C47540098F2304D6D7F4D3F876E /* TangramFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 167D462CC513BC224495A82FC31605A8 /* TangramFlowLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE516AEE541B684BD4C99C3CCC702CEE /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8816F590513A0DACB678E643A49AB1 /* UIImageView+HighlightedWebCache.m */; };
+		D2183FA0E6F325C43A5CF5C4C28D5232 /* TangramQuintetColumnLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = EA1429B238D1C7720F45A597822D06E9 /* TangramQuintetColumnLayout.m */; };
+		D2DC32BF0047D64DEECD9694CD95C73B /* TangramEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = C8B2A0588A7F9CCA8486AB3B23730D55 /* TangramEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E74D3FFBDB9754C330212DC530D32D7A /* ViewController+MASAdditions.m */; };
+		DDBBDE3248BBB4D585F505A6891A0436 /* TangramDefaultDataSourceHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5225838C11E76247B71AA75AFF3EF3 /* TangramDefaultDataSourceHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEDDE3BEDBD022B54E17A0FB90E30C74 /* TangramDefaultItemModelFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D69BFC04F8002E548BDCFE389CC1D0 /* TangramDefaultItemModelFactory.m */; };
+		DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D48CE757BB4F076D4562C6101540F1F /* MASConstraintMaker.m */; };
+		DFC4C414C9A37A408414BC50E26737F2 /* TangramSafeMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = A5D22DB52E9857BEB9731690FADDB526 /* TangramSafeMethod.m */; };
+		E072DA57403C4BFF9B10467BE05604C5 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F25AFF64791ED75BE7DF9A5FFC9A286E /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0A369A9D4EA21DC83A24558D632D760 /* TangramBusIndex.h in Headers */ = {isa = PBXBuildFile; fileRef = 797314199DC6A7A101939CF667CE44CF /* TangramBusIndex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1E771349813022263F549BDF33CB4BB /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B293213FDA766C185B6C83376CE4A2F /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E615DD14E7EBF8233DC354721334ED46 /* SDWebImageDecoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 14F77A8C78D774D83619024D16AF2ED5 /* SDWebImageDecoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB5B519FB0CF52024F291696C95B0F65 /* TangramDefaultItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 62D267C9CFEDF8A2327146EEE63786E7 /* TangramDefaultItemModel.m */; };
+		EC48DE078CA5E55922CCE02354D475CD /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = CBB357BF6FF0FF68AEEE5E505285E295 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECD9C51B159BB5711C0AB1BA0C7C6AD2 /* TangramElementReuseIdentifierProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 21027114E01314F3573EFDE7100B1EF2 /* TangramElementReuseIdentifierProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECEBE4FD8C48AF052E6B902EA85C6ADC /* TangramDefaultElementFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1952FB36D6A7D4E85EED93860743FFD6 /* TangramDefaultElementFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED3729EC28F2C307B274F0E4C397FBAE /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 561B0BA53F08E74D893E02BABC1E69F3 /* SDWebImageDownloader.m */; };
+		F098BA07A11B582C0B7A74A31CA6FAB5 /* TangramEventDispatcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 97FB24AC0F2A3CA40D361EB38C2F8816 /* TangramEventDispatcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0B56A7D38A399A2F67F9920C9526A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80265C5BF36CD2F81E4A8EFBF85AF93 /* Foundation.framework */; };
+		F15B4F6B2A2BDD8D34010D2A00B5C508 /* TangramItemModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 4318BB5FD5ECE5C0372F8F688BB4DC30 /* TangramItemModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1BED807A90DB12A40DD09A466BD1204 /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 9424560D39327254D067096AE3E88B0B /* UIImage+GIF.m */; };
+		F3B08B74274DC968DBB98016B70676F5 /* UIView+Tangram.h in Headers */ = {isa = PBXBuildFile; fileRef = 49EC5CEF9A243330F40F5DB011D61A36 /* UIView+Tangram.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F65E6A46DFD96C9E74F239A46C309DFD /* TangramSafeMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = D93A3D186537B6D2F44F424ED2BDD0A2 /* TangramSafeMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8138E4254D86B8C257AB88E0B7E4763 /* TangramLayoutParseHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 695EC0F192F788574CF5C28A0A191FCB /* TangramLayoutParseHelper.m */; };
+		F8DEC5C186B5E13CAFEC32DCBE49CE33 /* TangramDefaultItemModelFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 280371BFC4CEF75A8496811C5582CFCB /* TangramDefaultItemModelFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9E47DD2D2A3D72D9EAA562BC843AEF3 /* TangramSingleAndDoubleLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CAC66E9FBA0A53B4E6FF49295825FED2 /* TangramSingleAndDoubleLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEA0FF42A3C4ADAF32BF3221A302E68F /* TangramQuintetColumnLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = EC5DD9BE132E9B37900DD90B9C41FF84 /* TangramQuintetColumnLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26E5B763C5334CE675F15967CDD46312 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD70EC4431E95C2056B812ED00ABE76F;
+			remoteInfo = SDWebImage;
+		};
+		27A999E22B21BFCE3A20E1E1E7FE3A7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7BA3BC76289024B4A0069BF14F3348;
+			remoteInfo = Reachability;
+		};
+		53592B81C39736CE99556768AEC98833 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC8D9E02903E93BD0B2FEC9D846EA20;
+			remoteInfo = Masonry;
+		};
+		9EBE973C180C27E9545274C9C6DB86E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5954A7AC2C86CC0827E941E29AE59A8;
+			remoteInfo = LazyScroll;
+		};
+		D7C5142510486F427483074413B417AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5954A7AC2C86CC0827E941E29AE59A8;
+			remoteInfo = LazyScroll;
+		};
+		E299B0B546C1B6F37A46AC7FF7A4117B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07E1461D8385CE1EDA05A353DA6F814F;
+			remoteInfo = Tangram;
+		};
+		FA59612452FC7B3EBD92D2560C830BAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD70EC4431E95C2056B812ED00ABE76F;
+			remoteInfo = SDWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02854E76061FCEB1AAF1FD4B135F764C /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		028FCAB0D7588EFDCBF510521A1AAA59 /* TangramTribleColumnLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramTribleColumnLayout.m; sourceTree = "<group>"; };
+		0520BEF8A7B9F3F5588CCC2962E8D601 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		0608F57F0E42D5FD64685A388DEC24BC /* Pods-TangramCategoryDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TangramCategoryDemo-dummy.m"; sourceTree = "<group>"; };
+		06A57603FCCE3D40B2D977F416F02CBB /* TangramDoubleColumnLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDoubleColumnLayout.m; sourceTree = "<group>"; };
+		088DC14A266111B37A67F0F8117664A0 /* TangramFixTopLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramFixTopLayout.m; sourceTree = "<group>"; };
+		09CEFABC34C3487DBE34116DEDF07869 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		0BA4DCFB056F6F0C5FEFBCF443FF6048 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		0D3D2C503FD61E412FF53B34FF1CD82A /* TangramStickyLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramStickyLayout.m; sourceTree = "<group>"; };
+		0DA4BCB43AFCEDB711FB96B5B05292A7 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		1426528F59C9E215EA672CA8FF98D73F /* TangramContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramContext.m; sourceTree = "<group>"; };
+		14F77A8C78D774D83619024D16AF2ED5 /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
+		1535A9B59AC4BE99C2CD9CE38F0460BF /* Reachability-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Reachability-prefix.pch"; sourceTree = "<group>"; };
+		167D462CC513BC224495A82FC31605A8 /* TangramFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramFlowLayout.h; sourceTree = "<group>"; };
+		170DF30B07ACDB9222B74D8DCA9A0690 /* TangramStickyBottomLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramStickyBottomLayout.m; sourceTree = "<group>"; };
+		176349AA430AAA1CFA889BB27F4599B3 /* TangramTetradColumnLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramTetradColumnLayout.h; sourceTree = "<group>"; };
+		1952FB36D6A7D4E85EED93860743FFD6 /* TangramDefaultElementFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDefaultElementFactory.h; sourceTree = "<group>"; };
+		1968ABDDECC5F58F924721F15A938350 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		1B2D93D44265AE1A9F42B85515F9360A /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		1B4CE741AAFF0F5FC995B093ADC84C1B /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		1D8BF5C65A58E4FFCCAFFD86AAF7835B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		1E2E2B649D7DAA51C633149C68E0E8F6 /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		1ED3A714DB8F2C479756FB8F07B10906 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		1F54D4C560F03D566D86D3E8E056DC85 /* TMMuiLazyScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TMMuiLazyScrollView.h; path = LazyScrollView/TMMuiLazyScrollView.h; sourceTree = "<group>"; };
+		21027114E01314F3573EFDE7100B1EF2 /* TangramElementReuseIdentifierProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramElementReuseIdentifierProtocol.h; sourceTree = "<group>"; };
+		22286C29AA3D3BC06B361F0F1586A7C4 /* LazyScroll-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LazyScroll-prefix.pch"; sourceTree = "<group>"; };
+		23D69BFC04F8002E548BDCFE389CC1D0 /* TangramDefaultItemModelFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDefaultItemModelFactory.m; sourceTree = "<group>"; };
+		280371BFC4CEF75A8496811C5582CFCB /* TangramDefaultItemModelFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDefaultItemModelFactory.h; sourceTree = "<group>"; };
+		2DF7065AE69F8AD54AFA27037F86B1E9 /* TangramBusIndexTopic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramBusIndexTopic.m; sourceTree = "<group>"; };
+		2E293CC544E194E257D00A9A78253881 /* TMMuiLazyScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TMMuiLazyScrollView.m; path = LazyScrollView/TMMuiLazyScrollView.m; sourceTree = "<group>"; };
+		2E4776FBC2D7442169FF306BAF5275F6 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		2FB4D9F92082C350DBF6310FF4C6C1E0 /* TangramLayoutParseHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramLayoutParseHelper.h; sourceTree = "<group>"; };
+		2FC4405F0D547A1DB30D7A108C0242DB /* TangramBusIndexClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramBusIndexClass.h; sourceTree = "<group>"; };
+		3069501E88FE3892AF65590D9EEE854D /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		312861F55F21550055F86560C8E575A2 /* Pods-TangramCategoryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TangramCategoryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		31E22A1803C095FCD72C07D23E77265C /* Tangram-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Tangram-prefix.pch"; sourceTree = "<group>"; };
+		32782CE87C71F4F74F0159EF43C91246 /* libPods-TangramCategoryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-TangramCategoryDemo.a"; path = "libPods-TangramCategoryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33521A3CD72B77195292A4FBEE5BF6DD /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		339984A0549C0533DFF1BFA8D35C7D1C /* TangramSingleColumnLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramSingleColumnLayout.m; sourceTree = "<group>"; };
+		33B20982476EBD242506701AF38965ED /* TangramEventDispatcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramEventDispatcher.m; sourceTree = "<group>"; };
+		361E150B71C41B4DA978F7C1C3568294 /* TangramBus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramBus.h; sourceTree = "<group>"; };
+		3647A4DCDAB15C5BF6DEB178AC6B2199 /* Reachability-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Reachability-dummy.m"; sourceTree = "<group>"; };
+		3A1B64BAF721A94D46BA6400A69B5578 /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		3A262C1F17557F118AB595B2FF2B7789 /* Pods-TangramCategoryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TangramCategoryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3AD8AA83B3744A0B083D6EB4292374EA /* TangramKitLayoutTypeMap.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = TangramKitLayoutTypeMap.plist; sourceTree = "<group>"; };
+		3CBCEF9F79B905623924F1DCBDA9910D /* TangramHelperCustomMapping.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = TangramHelperCustomMapping.plist; sourceTree = "<group>"; };
+		431126FBEF81A5152F7F377621D37D99 /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		4318BB5FD5ECE5C0372F8F688BB4DC30 /* TangramItemModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramItemModelProtocol.h; sourceTree = "<group>"; };
+		442F08EE04CDCA665CB70B9B81E44FC9 /* TangramWaterFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramWaterFlowLayout.m; sourceTree = "<group>"; };
+		4564038AC3D65D413CA85CB8D92A52DE /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		45C04A59D5CF197AD21FACE435C2F3E2 /* TangramDefaultItemModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDefaultItemModel.h; sourceTree = "<group>"; };
+		4737CDDDB659BAC3E7A129840BA6E2BA /* TangramContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramContext.h; sourceTree = "<group>"; };
+		49EC5CEF9A243330F40F5DB011D61A36 /* UIView+Tangram.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Tangram.h"; sourceTree = "<group>"; };
+		4AB690B6784A35E91E7B2277368E4038 /* TangramEventQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramEventQueue.m; sourceTree = "<group>"; };
+		4ACDDE706CA95821B9A2E2ABDE5BEC2C /* TangramDefaultLayoutFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDefaultLayoutFactory.m; sourceTree = "<group>"; };
+		4B0902802194328781AE3DCE256CC7C1 /* Pods-TangramCategoryDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TangramCategoryDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		531714D1EED31AA82B767E815C3870A2 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		561B0BA53F08E74D893E02BABC1E69F3 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		5B0C6C66916E7A14F93FB6C6A68EE0F8 /* TangramFixLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramFixLayout.m; sourceTree = "<group>"; };
+		5BDE14335FC15B0815E1A380D92204CB /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		5D48CE757BB4F076D4562C6101540F1F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		5F6F24D2A8084CBA2CE0B2C7DC8C186C /* TangramDragableLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDragableLayout.m; sourceTree = "<group>"; };
+		61226FE2D23A6BA5C067612C93CADB1F /* TangramStickyBottomLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramStickyBottomLayout.h; sourceTree = "<group>"; };
+		62D267C9CFEDF8A2327146EEE63786E7 /* TangramDefaultItemModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDefaultItemModel.m; sourceTree = "<group>"; };
+		671A473F0050EE5B1560C866E24FC459 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		68C263D53C8479D0278D7C53033FB003 /* TangramView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramView.h; sourceTree = "<group>"; };
+		695EC0F192F788574CF5C28A0A191FCB /* TangramLayoutParseHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramLayoutParseHelper.m; sourceTree = "<group>"; };
+		69A0A5EB369DA723E8F11B0C5A95B65E /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		6CA4FCAC2C6C53213D51B93B51491D9D /* TangramFixLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramFixLayout.h; sourceTree = "<group>"; };
+		6D5A204A03972B395EF4078D349C82CB /* TangramElementFactoryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramElementFactoryProtocol.h; sourceTree = "<group>"; };
+		6EEF451F1E62424C5E3E54F58AAC4E1B /* TangramDefaultLayoutFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDefaultLayoutFactory.h; sourceTree = "<group>"; };
+		6F040DB6ABE0971FAC84F6DDE22A0A23 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		750439C17DA4A53F555FF061FE3A002E /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		75563FC0F0A0D9C8F519C94186B33911 /* TangramItemModelFactoryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramItemModelFactoryProtocol.h; sourceTree = "<group>"; };
+		760FC60E012BD8FE9D02A2517E6686C8 /* TangramFlowLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramFlowLayout.m; sourceTree = "<group>"; };
+		797314199DC6A7A101939CF667CE44CF /* TangramBusIndex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramBusIndex.h; sourceTree = "<group>"; };
+		7B5225838C11E76247B71AA75AFF3EF3 /* TangramDefaultDataSourceHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDefaultDataSourceHelper.h; sourceTree = "<group>"; };
+		7C5B8025AF3F8CC29BFA656DB39038CF /* TangramEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramEvent.m; sourceTree = "<group>"; };
+		7E5674F7ED9F25B40E3EFF225BA3DB5D /* Pods-TangramCategoryDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TangramCategoryDemo-resources.sh"; sourceTree = "<group>"; };
+		82DB8D6ED0FB2F24DEC9F05B2FB16F15 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		8410CA0CB6E3D84CCC9BBAAA0D996839 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		84965B549649EBA5B94C72C74B4FBCBD /* TangramWaterFlowLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramWaterFlowLayout.h; sourceTree = "<group>"; };
+		85F55C028BAE248DD2655F5E2C12572A /* TangramDoubleColumnLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDoubleColumnLayout.h; sourceTree = "<group>"; };
+		873895C20B8F59A59374E1032D38D6D8 /* TangramSingleAndDoubleLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramSingleAndDoubleLayout.m; sourceTree = "<group>"; };
+		8873AFB01F9429DB46F826B3F20C850B /* TangramDefaultDataSourceHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDefaultDataSourceHelper.m; sourceTree = "<group>"; };
+		8A9ED3BDEF17EC8D75088754242F6F4F /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		8C6279B90734230DC5334181CD1878EA /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		8F1F94CD12085AA86A5CAE96DF3B6605 /* Reachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8FC958484DAF7BE38E3A268D69E13188 /* Reachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9424560D39327254D067096AE3E88B0B /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		95A608653D5EDD84CB131CA38ECD38E0 /* TangramLayoutFactoryProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramLayoutFactoryProtocol.h; sourceTree = "<group>"; };
+		9710410C6DDD81F68F30F8F7A3069538 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		97FB24AC0F2A3CA40D361EB38C2F8816 /* TangramEventDispatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramEventDispatcher.h; sourceTree = "<group>"; };
+		98E56998B1FFADCEDE06C7C1EF665F88 /* libReachability.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libReachability.a; path = libReachability.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A07387A44D20660264B953260AF4A3C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		9AD6E14F592ADC0FA191FDB5C7229149 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		9B293213FDA766C185B6C83376CE4A2F /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		9BF39BADDBEFDE9289F2E3ECE52E1320 /* LazyScroll.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LazyScroll.xcconfig; sourceTree = "<group>"; };
+		9D4765277034F3FA0C9F4F45090ADEA8 /* TangramBusIndexClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramBusIndexClass.m; sourceTree = "<group>"; };
+		9D8816F590513A0DACB678E643A49AB1 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		A0D1C98B12875CF84F00C54A275D20CB /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		A3FD5900FEC13ABE329E8008A3FA5337 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		A5D22DB52E9857BEB9731690FADDB526 /* TangramSafeMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramSafeMethod.m; sourceTree = "<group>"; };
+		A80265C5BF36CD2F81E4A8EFBF85AF93 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AA3FEFB3CA5E7E74C8AE6B5C9257572D /* TangramPageScrollLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramPageScrollLayout.h; sourceTree = "<group>"; };
+		AA7543393C25DF5206534397D1F44700 /* Pods-TangramCategoryDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TangramCategoryDemo-frameworks.sh"; sourceTree = "<group>"; };
+		AA7C1F21D72BC2A9532E36A7C493D998 /* TangramTribleColumnLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramTribleColumnLayout.h; sourceTree = "<group>"; };
+		AC49F4FFA41ACE2F0C7765F6EE21CD48 /* TangramDefaultElementFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramDefaultElementFactory.m; sourceTree = "<group>"; };
+		ACE51406277E60D09755E6841B3C028B /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		AD76D72E7765628E70890D7E3B0B64BB /* TangramBus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramBus.m; sourceTree = "<group>"; };
+		B40792E7ED1F1F00F5F013570ACC8B66 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		B513D999A99397DDC925E1C17AD4333A /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		B63C4D3A30284733C617010F011BE4AB /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		B67290E3519EDCBE0496E6D7740806FB /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		B7F03FBDCDFE40A3EA936DF2F245B8CB /* TangramBusIndex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramBusIndex.m; sourceTree = "<group>"; };
+		B826657C532E4DFADED7977088B6FBCD /* UIView+Tangram.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tangram.m"; sourceTree = "<group>"; };
+		B82FAA10E7773518FDAE4B486C8A6448 /* TangramLayoutProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramLayoutProtocol.h; sourceTree = "<group>"; };
+		BA3889B3F3FB87EE83901DE85C1EF871 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		BB44D9831E00BA4E92AEE74988F77C83 /* TangramSingleColumnLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramSingleColumnLayout.h; sourceTree = "<group>"; };
+		BB9B45555A750761B37920179BB27480 /* TangramEasyElementProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramEasyElementProtocol.h; sourceTree = "<group>"; };
+		BC16F8592DE67831DFCC60EF64DF6538 /* TangramPageScrollLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramPageScrollLayout.m; sourceTree = "<group>"; };
+		C06A5645BDBD1D2911CF09592F9F92F5 /* Tangram-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Tangram-dummy.m"; sourceTree = "<group>"; };
+		C13C90B1269235AED52330D3F5B4D7EC /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		C1847E245F0440868739F98141B91057 /* TangramFixBottomLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramFixBottomLayout.h; sourceTree = "<group>"; };
+		C1CDCBEFA2DE61D29443C2BB3D062B90 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		C461DE8D92C74B0304FBB2BF07475C67 /* LazyScroll-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LazyScroll-dummy.m"; sourceTree = "<group>"; };
+		C55632BC210540621C3B20C5B657127B /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C796B2C8316DCC6CD8C5FA794F48FCF3 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		C8513AD3E47FAA779335255B98E941C1 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		C89CE94E5EBDD8EAD2DA4CC05A3D6BB7 /* TangramElementHeightProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramElementHeightProtocol.h; sourceTree = "<group>"; };
+		C8B2A0588A7F9CCA8486AB3B23730D55 /* TangramEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramEvent.h; sourceTree = "<group>"; };
+		C8E5250F275F7B5C26ECD05BF46973FB /* TangramTetradColumnLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramTetradColumnLayout.m; sourceTree = "<group>"; };
+		CAC66E9FBA0A53B4E6FF49295825FED2 /* TangramSingleAndDoubleLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramSingleAndDoubleLayout.h; sourceTree = "<group>"; };
+		CBB357BF6FF0FF68AEEE5E505285E295 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		CCBAFC17AF7D04801DA9BFD31ABEB316 /* libTangram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libTangram.a; path = libTangram.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE6BCEB758228908ECCB5AEF2A65C4D /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		CE3F9636E2A0086A1C6B182BCDB4A0B0 /* TangramHelperMapping.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = TangramHelperMapping.plist; sourceTree = "<group>"; };
+		CF7CB0B9BE42A5967C006EA67C9B5609 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		D01D6F4F29A52D0B40EFBAD19DAAF1E1 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		D408B8FC3586E24689BBB896126AF6C2 /* Reachability.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Reachability.xcconfig; sourceTree = "<group>"; };
+		D58B8AA2F58F7BD72E26F87E5BC86D6F /* Pods-TangramCategoryDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TangramCategoryDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D59485B74C82F45A9956C1A2C22CBB6F /* TangramFixBottomLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramFixBottomLayout.m; sourceTree = "<group>"; };
+		D64FDEEB220E53D63425DB5D4AC953E0 /* libLazyScroll.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libLazyScroll.a; path = libLazyScroll.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9065B1092AE4DF23A4C3D07782DA697 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDWebImage.a; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9181BAEB6934C95B83675190EC5F71F /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		D93A3D186537B6D2F44F424ED2BDD0A2 /* TangramSafeMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramSafeMethod.h; sourceTree = "<group>"; };
+		DF05B4872C7BDE964348BC787163FE8E /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DF38053670D1B16B37F2691F217301C7 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		DF3E1E6BE2ACBF0651B6E249AA7EC0EA /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		E4CC8C6794C038BEA44319CF7188FBC6 /* TangramDragableLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramDragableLayout.h; sourceTree = "<group>"; };
+		E65682923CAEAA5AB5B05454CC61CBAB /* TangramStickyLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramStickyLayout.h; sourceTree = "<group>"; };
+		E74D3FFBDB9754C330212DC530D32D7A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		E78BCB59DCECCEA38FF94D4BC78C0F0B /* Tangram.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Tangram.xcconfig; sourceTree = "<group>"; };
+		E9C6C374465E195EF231635F631C9BDB /* TangramEventQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramEventQueue.h; sourceTree = "<group>"; };
+		EA0A29E9F679E4CE22C6522E56DEB8D6 /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		EA1429B238D1C7720F45A597822D06E9 /* TangramQuintetColumnLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramQuintetColumnLayout.m; sourceTree = "<group>"; };
+		EC5DD9BE132E9B37900DD90B9C41FF84 /* TangramQuintetColumnLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramQuintetColumnLayout.h; sourceTree = "<group>"; };
+		EF39820F03FA8AE78B77560531185C96 /* TangramBusIndexTopic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramBusIndexTopic.h; sourceTree = "<group>"; };
+		F1A2157C1D5D61E84A06BF860520D00C /* TangramFixTopLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TangramFixTopLayout.h; sourceTree = "<group>"; };
+		F25AFF64791ED75BE7DF9A5FFC9A286E /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		F562EAEC2D639A4C524E509132B8BEB6 /* SDWebImageDecoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDecoder.m; path = SDWebImage/SDWebImageDecoder.m; sourceTree = "<group>"; };
+		F6FC0383B79DB22461CD4404318F1EB5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F82E3BFF5868E1B98A11D33C8116C575 /* TangramView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TangramView.m; sourceTree = "<group>"; };
+		F8B55BA309A4E7D2FFB1BC157B20AED0 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		FFB9C1CD1EEBD89943B4321B034C4A63 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A57940558A747FF205CD0084BA5076D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C6979A3085FAFD84CE3A8E810858FC /* Foundation.framework in Frameworks */,
+				1FC1E4B518B0A3F2415E739A1C292C62 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B56A7D38A399A2F67F9920C9526A66 /* Foundation.framework in Frameworks */,
+				6209E20926D79222E59F58B962BFAA1E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9208E0096186B454A070201A2B6043CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D7E682B8421D6A7CED13B73C9D50B9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94571B9FC19B9658AEF57AE4E018680B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				076C0B0BECAFE310C641380A3D1F82D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2B5E35697DDFCADBC4613F58EB8CBFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1157FCE052F62A7AA3651C0507AEE8DA /* Foundation.framework in Frameworks */,
+				94017F46BF82F63BD928B11872453889 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4C786ED85449BACCB1AA87585CEC61D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				132073E54854F0B9328AF18DB2402E1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067E0EC0D920D840324A9351A908ACF0 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BB9B45555A750761B37920179BB27480 /* TangramEasyElementProtocol.h */,
+				6D5A204A03972B395EF4078D349C82CB /* TangramElementFactoryProtocol.h */,
+				C89CE94E5EBDD8EAD2DA4CC05A3D6BB7 /* TangramElementHeightProtocol.h */,
+				21027114E01314F3573EFDE7100B1EF2 /* TangramElementReuseIdentifierProtocol.h */,
+				75563FC0F0A0D9C8F519C94186B33911 /* TangramItemModelFactoryProtocol.h */,
+				4318BB5FD5ECE5C0372F8F688BB4DC30 /* TangramItemModelProtocol.h */,
+				95A608653D5EDD84CB131CA38ECD38E0 /* TangramLayoutFactoryProtocol.h */,
+				B82FAA10E7773518FDAE4B486C8A6448 /* TangramLayoutProtocol.h */,
+			);
+			name = Protocols;
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		08956857A9C4610AEE9AD0A3B5438D24 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				D93A3D186537B6D2F44F424ED2BDD0A2 /* TangramSafeMethod.h */,
+				A5D22DB52E9857BEB9731690FADDB526 /* TangramSafeMethod.m */,
+			);
+			name = Util;
+			path = Util;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				260C6B7356CD014983D12CCC6E08E7F7 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		165ED8F947C3FA73CE02F14BFBE8E2D7 /* Tangram */ = {
+			isa = PBXGroup;
+			children = (
+				B8646E276F0EF6873B1437C6C99B1219 /* Resource */,
+			);
+			name = Tangram;
+			path = Tangram;
+			sourceTree = "<group>";
+		};
+		199D25ED8EB266C256C533047D9B4526 /* LazyScroll */ = {
+			isa = PBXGroup;
+			children = (
+				1F54D4C560F03D566D86D3E8E056DC85 /* TMMuiLazyScrollView.h */,
+				2E293CC544E194E257D00A9A78253881 /* TMMuiLazyScrollView.m */,
+				1DEF279B6FDE6CBE688FB203CF13D43E /* Support Files */,
+			);
+			name = LazyScroll;
+			path = LazyScroll;
+			sourceTree = "<group>";
+		};
+		1DEF279B6FDE6CBE688FB203CF13D43E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BF39BADDBEFDE9289F2E3ECE52E1320 /* LazyScroll.xcconfig */,
+				C461DE8D92C74B0304FBB2BF07475C67 /* LazyScroll-dummy.m */,
+				22286C29AA3D3BC06B361F0F1586A7C4 /* LazyScroll-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LazyScroll";
+			sourceTree = "<group>";
+		};
+		260C6B7356CD014983D12CCC6E08E7F7 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A80265C5BF36CD2F81E4A8EFBF85AF93 /* Foundation.framework */,
+				3069501E88FE3892AF65590D9EEE854D /* ImageIO.framework */,
+				1D8BF5C65A58E4FFCCAFFD86AAF7835B /* SystemConfiguration.framework */,
+				F6FC0383B79DB22461CD4404318F1EB5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2A782826B4C475325BC47249F012E1E6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				68C263D53C8479D0278D7C53033FB003 /* TangramView.h */,
+				F82E3BFF5868E1B98A11D33C8116C575 /* TangramView.m */,
+			);
+			name = Core;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		2E3C51849E0AFF6786D9335DC4B0821C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC9E39BFC43C5B0B3B00E2E77D939CD1 /* Pods-TangramCategoryDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		397F85FC17B6CB83A899CCC12C4CDAF8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D408B8FC3586E24689BBB896126AF6C2 /* Reachability.xcconfig */,
+				3647A4DCDAB15C5BF6DEB178AC6B2199 /* Reachability-dummy.m */,
+				1535A9B59AC4BE99C2CD9CE38F0460BF /* Reachability-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Reachability";
+			sourceTree = "<group>";
+		};
+		4435103E245DCD9515A1249BB0ABFD38 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1CDCBEFA2DE61D29443C2BB3D062B90 /* SDWebImage.xcconfig */,
+				DF38053670D1B16B37F2691F217301C7 /* SDWebImage-dummy.m */,
+				CDE6BCEB758228908ECCB5AEF2A65C4D /* SDWebImage-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		4EA127D2AC44E2D2822E67506A802DB1 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				E605F56A2FD9F57211C447B5C0644A44 /* Core */,
+				4435103E245DCD9515A1249BB0ABFD38 /* Support Files */,
+			);
+			name = SDWebImage;
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		6041F04A4F3B32A834815C632732608B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				199D25ED8EB266C256C533047D9B4526 /* LazyScroll */,
+				F79AECA515E61A86856258191A58714B /* Masonry */,
+				B5A2D46ABEA82CF3A2FE216D5D2E45B4 /* Reachability */,
+				4EA127D2AC44E2D2822E67506A802DB1 /* SDWebImage */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		624E86BD56DEF3D66EB1611C530F63D6 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E78BCB59DCECCEA38FF94D4BC78C0F0B /* Tangram.xcconfig */,
+				C06A5645BDBD1D2911CF09592F9F92F5 /* Tangram-dummy.m */,
+				31E22A1803C095FCD72C07D23E77265C /* Tangram-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "TangramCategoryDemo/Pods/Target Support Files/Tangram";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9455A8C9F27458023E1DD3CDF3342DE1 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				6041F04A4F3B32A834815C632732608B /* Pods */,
+				9C97A7B298132CEA0CE749C37FDE3942 /* Products */,
+				2E3C51849E0AFF6786D9335DC4B0821C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9455A8C9F27458023E1DD3CDF3342DE1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED9FE8EE498CED0CBD10B1B0495D7520 /* Tangram */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9C97A7B298132CEA0CE749C37FDE3942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D64FDEEB220E53D63425DB5D4AC953E0 /* libLazyScroll.a */,
+				C55632BC210540621C3B20C5B657127B /* libMasonry.a */,
+				32782CE87C71F4F74F0159EF43C91246 /* libPods-TangramCategoryDemo.a */,
+				98E56998B1FFADCEDE06C7C1EF665F88 /* libReachability.a */,
+				D9065B1092AE4DF23A4C3D07782DA697 /* libSDWebImage.a */,
+				CCBAFC17AF7D04801DA9BFD31ABEB316 /* libTangram.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E4D16DA03371C339B617A4CC9483D19 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				1952FB36D6A7D4E85EED93860743FFD6 /* TangramDefaultElementFactory.h */,
+				AC49F4FFA41ACE2F0C7765F6EE21CD48 /* TangramDefaultElementFactory.m */,
+				280371BFC4CEF75A8496811C5582CFCB /* TangramDefaultItemModelFactory.h */,
+				23D69BFC04F8002E548BDCFE389CC1D0 /* TangramDefaultItemModelFactory.m */,
+				6EEF451F1E62424C5E3E54F58AAC4E1B /* TangramDefaultLayoutFactory.h */,
+				4ACDDE706CA95821B9A2E2ABDE5BEC2C /* TangramDefaultLayoutFactory.m */,
+			);
+			name = Factory;
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		B5A2D46ABEA82CF3A2FE216D5D2E45B4 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				8FC958484DAF7BE38E3A268D69E13188 /* Reachability.h */,
+				8F1F94CD12085AA86A5CAE96DF3B6605 /* Reachability.m */,
+				397F85FC17B6CB83A899CCC12C4CDAF8 /* Support Files */,
+			);
+			name = Reachability;
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+		B8646E276F0EF6873B1437C6C99B1219 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				3CBCEF9F79B905623924F1DCBDA9910D /* TangramHelperCustomMapping.plist */,
+				CE3F9636E2A0086A1C6B182BCDB4A0B0 /* TangramHelperMapping.plist */,
+				3AD8AA83B3744A0B083D6EB4292374EA /* TangramKitLayoutTypeMap.plist */,
+			);
+			name = Resource;
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		C6BA51991EA56000498B322FFBFABD31 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				165ED8F947C3FA73CE02F14BFBE8E2D7 /* Tangram */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D4B30C159AB3CDA0F01D5168377DEB8F /* Tangram */ = {
+			isa = PBXGroup;
+			children = (
+				DA8DEEA7E9F68E73033D5F48E7C3C8B7 /* Source */,
+			);
+			name = Tangram;
+			path = Tangram;
+			sourceTree = "<group>";
+		};
+		DA8DEEA7E9F68E73033D5F48E7C3C8B7 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				2A782826B4C475325BC47249F012E1E6 /* Core */,
+				EC4E516161B53A67DB3700E26B55A391 /* EventBus */,
+				9E4D16DA03371C339B617A4CC9483D19 /* Factory */,
+				F1F83A4A928EFB09AEC4981DBF3E7225 /* Helper */,
+				EFFE50C20DCE57CBE1D2C65D6B620EE1 /* Layouts */,
+				F1E14733D3B4DBE3DC00422DE6E40645 /* Model */,
+				067E0EC0D920D840324A9351A908ACF0 /* Protocols */,
+				08956857A9C4610AEE9AD0A3B5438D24 /* Util */,
+			);
+			name = Source;
+			path = Source;
+			sourceTree = "<group>";
+		};
+		DC9E39BFC43C5B0B3B00E2E77D939CD1 /* Pods-TangramCategoryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D58B8AA2F58F7BD72E26F87E5BC86D6F /* Pods-TangramCategoryDemo-acknowledgements.markdown */,
+				4B0902802194328781AE3DCE256CC7C1 /* Pods-TangramCategoryDemo-acknowledgements.plist */,
+				0608F57F0E42D5FD64685A388DEC24BC /* Pods-TangramCategoryDemo-dummy.m */,
+				AA7543393C25DF5206534397D1F44700 /* Pods-TangramCategoryDemo-frameworks.sh */,
+				7E5674F7ED9F25B40E3EFF225BA3DB5D /* Pods-TangramCategoryDemo-resources.sh */,
+				312861F55F21550055F86560C8E575A2 /* Pods-TangramCategoryDemo.debug.xcconfig */,
+				3A262C1F17557F118AB595B2FF2B7789 /* Pods-TangramCategoryDemo.release.xcconfig */,
+			);
+			name = "Pods-TangramCategoryDemo";
+			path = "Target Support Files/Pods-TangramCategoryDemo";
+			sourceTree = "<group>";
+		};
+		E08EADB24C0D70B947FCF701FE3DFBAF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D01D6F4F29A52D0B40EFBAD19DAAF1E1 /* Masonry.xcconfig */,
+				C13C90B1269235AED52330D3F5B4D7EC /* Masonry-dummy.m */,
+				A3FD5900FEC13ABE329E8008A3FA5337 /* Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		E605F56A2FD9F57211C447B5C0644A44 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0DA4BCB43AFCEDB711FB96B5B05292A7 /* NSData+ImageContentType.h */,
+				0BA4DCFB056F6F0C5FEFBCF443FF6048 /* NSData+ImageContentType.m */,
+				02854E76061FCEB1AAF1FD4B135F764C /* SDImageCache.h */,
+				9710410C6DDD81F68F30F8F7A3069538 /* SDImageCache.m */,
+				B63C4D3A30284733C617010F011BE4AB /* SDWebImageCompat.h */,
+				DF3E1E6BE2ACBF0651B6E249AA7EC0EA /* SDWebImageCompat.m */,
+				14F77A8C78D774D83619024D16AF2ED5 /* SDWebImageDecoder.h */,
+				F562EAEC2D639A4C524E509132B8BEB6 /* SDWebImageDecoder.m */,
+				1E2E2B649D7DAA51C633149C68E0E8F6 /* SDWebImageDownloader.h */,
+				561B0BA53F08E74D893E02BABC1E69F3 /* SDWebImageDownloader.m */,
+				4564038AC3D65D413CA85CB8D92A52DE /* SDWebImageDownloaderOperation.h */,
+				750439C17DA4A53F555FF061FE3A002E /* SDWebImageDownloaderOperation.m */,
+				EA0A29E9F679E4CE22C6522E56DEB8D6 /* SDWebImageManager.h */,
+				8A9ED3BDEF17EC8D75088754242F6F4F /* SDWebImageManager.m */,
+				69A0A5EB369DA723E8F11B0C5A95B65E /* SDWebImageOperation.h */,
+				D9181BAEB6934C95B83675190EC5F71F /* SDWebImagePrefetcher.h */,
+				B513D999A99397DDC925E1C17AD4333A /* SDWebImagePrefetcher.m */,
+				F8B55BA309A4E7D2FFB1BC157B20AED0 /* UIButton+WebCache.h */,
+				FFB9C1CD1EEBD89943B4321B034C4A63 /* UIButton+WebCache.m */,
+				3A1B64BAF721A94D46BA6400A69B5578 /* UIImage+GIF.h */,
+				9424560D39327254D067096AE3E88B0B /* UIImage+GIF.m */,
+				33521A3CD72B77195292A4FBEE5BF6DD /* UIImage+MultiFormat.h */,
+				A0D1C98B12875CF84F00C54A275D20CB /* UIImage+MultiFormat.m */,
+				2E4776FBC2D7442169FF306BAF5275F6 /* UIImageView+HighlightedWebCache.h */,
+				9D8816F590513A0DACB678E643A49AB1 /* UIImageView+HighlightedWebCache.m */,
+				C796B2C8316DCC6CD8C5FA794F48FCF3 /* UIImageView+WebCache.h */,
+				1B4CE741AAFF0F5FC995B093ADC84C1B /* UIImageView+WebCache.m */,
+				431126FBEF81A5152F7F377621D37D99 /* UIView+WebCacheOperation.h */,
+				1B2D93D44265AE1A9F42B85515F9360A /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		EC4E516161B53A67DB3700E26B55A391 /* EventBus */ = {
+			isa = PBXGroup;
+			children = (
+				361E150B71C41B4DA978F7C1C3568294 /* TangramBus.h */,
+				AD76D72E7765628E70890D7E3B0B64BB /* TangramBus.m */,
+				797314199DC6A7A101939CF667CE44CF /* TangramBusIndex.h */,
+				B7F03FBDCDFE40A3EA936DF2F245B8CB /* TangramBusIndex.m */,
+				2FC4405F0D547A1DB30D7A108C0242DB /* TangramBusIndexClass.h */,
+				9D4765277034F3FA0C9F4F45090ADEA8 /* TangramBusIndexClass.m */,
+				EF39820F03FA8AE78B77560531185C96 /* TangramBusIndexTopic.h */,
+				2DF7065AE69F8AD54AFA27037F86B1E9 /* TangramBusIndexTopic.m */,
+				4737CDDDB659BAC3E7A129840BA6E2BA /* TangramContext.h */,
+				1426528F59C9E215EA672CA8FF98D73F /* TangramContext.m */,
+				C8B2A0588A7F9CCA8486AB3B23730D55 /* TangramEvent.h */,
+				7C5B8025AF3F8CC29BFA656DB39038CF /* TangramEvent.m */,
+				97FB24AC0F2A3CA40D361EB38C2F8816 /* TangramEventDispatcher.h */,
+				33B20982476EBD242506701AF38965ED /* TangramEventDispatcher.m */,
+				E9C6C374465E195EF231635F631C9BDB /* TangramEventQueue.h */,
+				4AB690B6784A35E91E7B2277368E4038 /* TangramEventQueue.m */,
+			);
+			name = EventBus;
+			path = EventBus;
+			sourceTree = "<group>";
+		};
+		ED9FE8EE498CED0CBD10B1B0495D7520 /* Tangram */ = {
+			isa = PBXGroup;
+			children = (
+				C6BA51991EA56000498B322FFBFABD31 /* Resources */,
+				624E86BD56DEF3D66EB1611C530F63D6 /* Support Files */,
+				D4B30C159AB3CDA0F01D5168377DEB8F /* Tangram */,
+			);
+			name = Tangram;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		EFFE50C20DCE57CBE1D2C65D6B620EE1 /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				85F55C028BAE248DD2655F5E2C12572A /* TangramDoubleColumnLayout.h */,
+				06A57603FCCE3D40B2D977F416F02CBB /* TangramDoubleColumnLayout.m */,
+				E4CC8C6794C038BEA44319CF7188FBC6 /* TangramDragableLayout.h */,
+				5F6F24D2A8084CBA2CE0B2C7DC8C186C /* TangramDragableLayout.m */,
+				C1847E245F0440868739F98141B91057 /* TangramFixBottomLayout.h */,
+				D59485B74C82F45A9956C1A2C22CBB6F /* TangramFixBottomLayout.m */,
+				6CA4FCAC2C6C53213D51B93B51491D9D /* TangramFixLayout.h */,
+				5B0C6C66916E7A14F93FB6C6A68EE0F8 /* TangramFixLayout.m */,
+				F1A2157C1D5D61E84A06BF860520D00C /* TangramFixTopLayout.h */,
+				088DC14A266111B37A67F0F8117664A0 /* TangramFixTopLayout.m */,
+				167D462CC513BC224495A82FC31605A8 /* TangramFlowLayout.h */,
+				760FC60E012BD8FE9D02A2517E6686C8 /* TangramFlowLayout.m */,
+				AA3FEFB3CA5E7E74C8AE6B5C9257572D /* TangramPageScrollLayout.h */,
+				BC16F8592DE67831DFCC60EF64DF6538 /* TangramPageScrollLayout.m */,
+				EC5DD9BE132E9B37900DD90B9C41FF84 /* TangramQuintetColumnLayout.h */,
+				EA1429B238D1C7720F45A597822D06E9 /* TangramQuintetColumnLayout.m */,
+				CAC66E9FBA0A53B4E6FF49295825FED2 /* TangramSingleAndDoubleLayout.h */,
+				873895C20B8F59A59374E1032D38D6D8 /* TangramSingleAndDoubleLayout.m */,
+				BB44D9831E00BA4E92AEE74988F77C83 /* TangramSingleColumnLayout.h */,
+				339984A0549C0533DFF1BFA8D35C7D1C /* TangramSingleColumnLayout.m */,
+				61226FE2D23A6BA5C067612C93CADB1F /* TangramStickyBottomLayout.h */,
+				170DF30B07ACDB9222B74D8DCA9A0690 /* TangramStickyBottomLayout.m */,
+				E65682923CAEAA5AB5B05454CC61CBAB /* TangramStickyLayout.h */,
+				0D3D2C503FD61E412FF53B34FF1CD82A /* TangramStickyLayout.m */,
+				176349AA430AAA1CFA889BB27F4599B3 /* TangramTetradColumnLayout.h */,
+				C8E5250F275F7B5C26ECD05BF46973FB /* TangramTetradColumnLayout.m */,
+				AA7C1F21D72BC2A9532E36A7C493D998 /* TangramTribleColumnLayout.h */,
+				028FCAB0D7588EFDCBF510521A1AAA59 /* TangramTribleColumnLayout.m */,
+				84965B549649EBA5B94C72C74B4FBCBD /* TangramWaterFlowLayout.h */,
+				442F08EE04CDCA665CB70B9B81E44FC9 /* TangramWaterFlowLayout.m */,
+			);
+			name = Layouts;
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		F1E14733D3B4DBE3DC00422DE6E40645 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45C04A59D5CF197AD21FACE435C2F3E2 /* TangramDefaultItemModel.h */,
+				62D267C9CFEDF8A2327146EEE63786E7 /* TangramDefaultItemModel.m */,
+			);
+			name = Model;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F1F83A4A928EFB09AEC4981DBF3E7225 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7B5225838C11E76247B71AA75AFF3EF3 /* TangramDefaultDataSourceHelper.h */,
+				8873AFB01F9429DB46F826B3F20C850B /* TangramDefaultDataSourceHelper.m */,
+				2FB4D9F92082C350DBF6310FF4C6C1E0 /* TangramLayoutParseHelper.h */,
+				695EC0F192F788574CF5C28A0A191FCB /* TangramLayoutParseHelper.m */,
+				49EC5CEF9A243330F40F5DB011D61A36 /* UIView+Tangram.h */,
+				B826657C532E4DFADED7977088B6FBCD /* UIView+Tangram.m */,
+			);
+			name = Helper;
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		F79AECA515E61A86856258191A58714B /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				B67290E3519EDCBE0496E6D7740806FB /* MASCompositeConstraint.h */,
+				531714D1EED31AA82B767E815C3870A2 /* MASCompositeConstraint.m */,
+				8410CA0CB6E3D84CCC9BBAAA0D996839 /* MASConstraint.h */,
+				6F040DB6ABE0971FAC84F6DDE22A0A23 /* MASConstraint.m */,
+				5BDE14335FC15B0815E1A380D92204CB /* MASConstraint+Private.h */,
+				CBB357BF6FF0FF68AEEE5E505285E295 /* MASConstraintMaker.h */,
+				5D48CE757BB4F076D4562C6101540F1F /* MASConstraintMaker.m */,
+				C8513AD3E47FAA779335255B98E941C1 /* MASLayoutConstraint.h */,
+				CF7CB0B9BE42A5967C006EA67C9B5609 /* MASLayoutConstraint.m */,
+				0520BEF8A7B9F3F5588CCC2962E8D601 /* Masonry.h */,
+				09CEFABC34C3487DBE34116DEDF07869 /* MASUtilities.h */,
+				9B293213FDA766C185B6C83376CE4A2F /* MASViewAttribute.h */,
+				B40792E7ED1F1F00F5F013570ACC8B66 /* MASViewAttribute.m */,
+				ACE51406277E60D09755E6841B3C028B /* MASViewConstraint.h */,
+				671A473F0050EE5B1560C866E24FC459 /* MASViewConstraint.m */,
+				1ED3A714DB8F2C479756FB8F07B10906 /* NSArray+MASAdditions.h */,
+				9A07387A44D20660264B953260AF4A3C /* NSArray+MASAdditions.m */,
+				F25AFF64791ED75BE7DF9A5FFC9A286E /* NSArray+MASShorthandAdditions.h */,
+				8C6279B90734230DC5334181CD1878EA /* NSLayoutConstraint+MASDebugAdditions.h */,
+				9AD6E14F592ADC0FA191FDB5C7229149 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				BA3889B3F3FB87EE83901DE85C1EF871 /* View+MASAdditions.h */,
+				1968ABDDECC5F58F924721F15A938350 /* View+MASAdditions.m */,
+				DF05B4872C7BDE964348BC787163FE8E /* View+MASShorthandAdditions.h */,
+				82DB8D6ED0FB2F24DEC9F05B2FB16F15 /* ViewController+MASAdditions.h */,
+				E74D3FFBDB9754C330212DC530D32D7A /* ViewController+MASAdditions.m */,
+				E08EADB24C0D70B947FCF701FE3DFBAF /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		12694EF086CAB7B1BD3574A16F34F6E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25992E0CABEB81255808C617F26D4BF4 /* TangramBus.h in Headers */,
+				E0A369A9D4EA21DC83A24558D632D760 /* TangramBusIndex.h in Headers */,
+				8F230D18B19FEC118267829A80DE81C6 /* TangramBusIndexClass.h in Headers */,
+				6AF3AAC3D0C2961F16CC58F7E68A4380 /* TangramBusIndexTopic.h in Headers */,
+				32FCDEAE48366EF9BA275BA614CB2D8E /* TangramContext.h in Headers */,
+				DDBBDE3248BBB4D585F505A6891A0436 /* TangramDefaultDataSourceHelper.h in Headers */,
+				ECEBE4FD8C48AF052E6B902EA85C6ADC /* TangramDefaultElementFactory.h in Headers */,
+				9825A7B55B582FB82CF2B8C925BD170C /* TangramDefaultItemModel.h in Headers */,
+				F8DEC5C186B5E13CAFEC32DCBE49CE33 /* TangramDefaultItemModelFactory.h in Headers */,
+				A1C00F2AD0991604059A3120C8C95F2C /* TangramDefaultLayoutFactory.h in Headers */,
+				2649700C9BAC0F5AE505FC9FA28EB462 /* TangramDoubleColumnLayout.h in Headers */,
+				8B1B2997F0A41B91DD097B5A3F9B7032 /* TangramDragableLayout.h in Headers */,
+				811906F4253B3BDCAB3F18AA9E380B24 /* TangramEasyElementProtocol.h in Headers */,
+				64FC5DA1E31B2C9F73E4D042DDCE2DE2 /* TangramElementFactoryProtocol.h in Headers */,
+				032E6A6C490EE51B50CFF981B4F9FE5B /* TangramElementHeightProtocol.h in Headers */,
+				ECD9C51B159BB5711C0AB1BA0C7C6AD2 /* TangramElementReuseIdentifierProtocol.h in Headers */,
+				D2DC32BF0047D64DEECD9694CD95C73B /* TangramEvent.h in Headers */,
+				F098BA07A11B582C0B7A74A31CA6FAB5 /* TangramEventDispatcher.h in Headers */,
+				378FD80F2B148646E0785FD95E456034 /* TangramEventQueue.h in Headers */,
+				55329E994A171C13F9C1264D5BACF2AA /* TangramFixBottomLayout.h in Headers */,
+				316C59BDB8D1ADC1421B1C634EB86085 /* TangramFixLayout.h in Headers */,
+				56A6553D488A5F80F145236213ABE496 /* TangramFixTopLayout.h in Headers */,
+				CDFE0C47540098F2304D6D7F4D3F876E /* TangramFlowLayout.h in Headers */,
+				A50DE893E56B04771A190FD0AC62D5DF /* TangramItemModelFactoryProtocol.h in Headers */,
+				F15B4F6B2A2BDD8D34010D2A00B5C508 /* TangramItemModelProtocol.h in Headers */,
+				139AC5E749AA09944144DD74642FD7E5 /* TangramLayoutFactoryProtocol.h in Headers */,
+				BFF37AFB4886E3C48F623CB7F9FEE001 /* TangramLayoutParseHelper.h in Headers */,
+				BB0D099040B24B15F5B43438DB3A74EF /* TangramLayoutProtocol.h in Headers */,
+				15562E76CD6C512823754C2C9E932F74 /* TangramPageScrollLayout.h in Headers */,
+				FEA0FF42A3C4ADAF32BF3221A302E68F /* TangramQuintetColumnLayout.h in Headers */,
+				F65E6A46DFD96C9E74F239A46C309DFD /* TangramSafeMethod.h in Headers */,
+				F9E47DD2D2A3D72D9EAA562BC843AEF3 /* TangramSingleAndDoubleLayout.h in Headers */,
+				49B392E940E679166AA9F6EE78ADE11A /* TangramSingleColumnLayout.h in Headers */,
+				4890173ED4D2E25036802F844E442F35 /* TangramStickyBottomLayout.h in Headers */,
+				A48C28A8366A89AC81255B5CC3EFF753 /* TangramStickyLayout.h in Headers */,
+				BB73B03DA06427E5ADEAB24AE4EC7197 /* TangramTetradColumnLayout.h in Headers */,
+				B3FC38F9F869FAD59AA08EE646952E5B /* TangramTribleColumnLayout.h in Headers */,
+				5E5C21CD36A869D28CF89142479CDEF7 /* TangramView.h in Headers */,
+				143197C8D6CD929B0DBEE5CF7CB2E3D5 /* TangramWaterFlowLayout.h in Headers */,
+				F3B08B74274DC968DBB98016B70676F5 /* UIView+Tangram.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		600C79E05FD1CA2006F28C10F72563D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				693C58370D6EE45EDD039E9F86817461 /* Reachability.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67D9FFED1E8BB0ADD781B2913D559750 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68E98BAD1D0007B8C851AD59D2FE4E0C /* NSData+ImageContentType.h in Headers */,
+				11E096CA176E626155FADA5F03C6A93B /* SDImageCache.h in Headers */,
+				81E1C453C000C0E11DDBFBA9017B0152 /* SDWebImageCompat.h in Headers */,
+				E615DD14E7EBF8233DC354721334ED46 /* SDWebImageDecoder.h in Headers */,
+				8CEF1BB19B905D1BEF2FA1E76AB453C3 /* SDWebImageDownloader.h in Headers */,
+				1F96F1F36014FE688DB76369895CAF84 /* SDWebImageDownloaderOperation.h in Headers */,
+				43F0C8975A7D9AD27B44F17FE68B8E9F /* SDWebImageManager.h in Headers */,
+				42BFF6E4E137451EBD344609F49D1844 /* SDWebImageOperation.h in Headers */,
+				7692BD1B4410F5C546A222E5E414263A /* SDWebImagePrefetcher.h in Headers */,
+				71C9A6149E39E755BBBE1F08964EA335 /* UIButton+WebCache.h in Headers */,
+				2ED05AD9965CC98013F19D482442CCB5 /* UIImage+GIF.h in Headers */,
+				C364BB22EAC9A2A04B553DD3F18A6BA5 /* UIImage+MultiFormat.h in Headers */,
+				BE51A4E84A92EA0F173A8284D0ED4CC5 /* UIImageView+HighlightedWebCache.h in Headers */,
+				B98771D46E47404CDE82DD0483AB3D60 /* UIImageView+WebCache.h in Headers */,
+				69712E6DD412A26301C196C5C1434A3D /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF73468622762862D2FB76ED4AC0D8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E09711F001C49F92A97060414E262B /* MASCompositeConstraint.h in Headers */,
+				4CBE1B46550A3FB90FDD1CB9CBA7B7FE /* MASConstraint+Private.h in Headers */,
+				6249770A7D163B0F3001D5A76C5FA01C /* MASConstraint.h in Headers */,
+				EC48DE078CA5E55922CCE02354D475CD /* MASConstraintMaker.h in Headers */,
+				A6436E3CFFCBFE591E2D2A68ED90CAC6 /* MASLayoutConstraint.h in Headers */,
+				49B903D576E09560C52AA92FDCC31A68 /* Masonry.h in Headers */,
+				1F3BD3BC28432BB5E2F73501E06E4579 /* MASUtilities.h in Headers */,
+				E1E771349813022263F549BDF33CB4BB /* MASViewAttribute.h in Headers */,
+				A83991D7C1373DF66020C2FDFC5D7564 /* MASViewConstraint.h in Headers */,
+				490CA524521F7D444EA58FA915D7E99C /* NSArray+MASAdditions.h in Headers */,
+				E072DA57403C4BFF9B10467BE05604C5 /* NSArray+MASShorthandAdditions.h in Headers */,
+				9934AEA2C891C201D8ED5746FF42FE1B /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				86EE1CB5473A4A07081D8DE3A2C45924 /* View+MASAdditions.h in Headers */,
+				983CB852CBBFBC04C2A6BA407E34F59B /* View+MASShorthandAdditions.h in Headers */,
+				C88F85D3200060BD98FC13EA58121706 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F43C1D657062D42787F48ED8193E1FE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B291511BAB500708D02EBEF78756E332 /* TMMuiLazyScrollView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07E1461D8385CE1EDA05A353DA6F814F /* Tangram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CEA93AA877DB6E1C27F1D5BCCA20D90 /* Build configuration list for PBXNativeTarget "Tangram" */;
+			buildPhases = (
+				09CE2414FAD58B93A2D85285A4A1A1AA /* Sources */,
+				94571B9FC19B9658AEF57AE4E018680B /* Frameworks */,
+				12694EF086CAB7B1BD3574A16F34F6E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD19CA80D26EA00FEACFC4618CB77699 /* PBXTargetDependency */,
+				F639309D77975A53FEDE74C3984612C0 /* PBXTargetDependency */,
+			);
+			name = Tangram;
+			productName = Tangram;
+			productReference = CCBAFC17AF7D04801DA9BFD31ABEB316 /* libTangram.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				C4BE2DC1E815E7367562323223772531 /* Sources */,
+				6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */,
+				BDF73468622762862D2FB76ED4AC0D8E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = C55632BC210540621C3B20C5B657127B /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ABB79C784B7E061B6679E0FD9A2BE0C9 /* Pods-TangramCategoryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6DA1A432562D6A8C65A70E247F3B175 /* Build configuration list for PBXNativeTarget "Pods-TangramCategoryDemo" */;
+			buildPhases = (
+				BC8D7C36341EDB2E10D114097073C56E /* Sources */,
+				9208E0096186B454A070201A2B6043CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D24EC98242650E2B58C719C13E38AAEF /* PBXTargetDependency */,
+				46A4F9002D395A5D000EC5CC774A0E75 /* PBXTargetDependency */,
+				3E27D4750AFA691D5E3844F1365F66E5 /* PBXTargetDependency */,
+				567D5F7B5565C9BF60FAEEAD2D776F6F /* PBXTargetDependency */,
+				D4EE209F041E0B771E8F7F3A39305E65 /* PBXTargetDependency */,
+			);
+			name = "Pods-TangramCategoryDemo";
+			productName = "Pods-TangramCategoryDemo";
+			productReference = 32782CE87C71F4F74F0159EF43C91246 /* libPods-TangramCategoryDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CD7BA3BC76289024B4A0069BF14F3348 /* Reachability */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0CEBE25AF4B3826CA0E51577E38D13 /* Build configuration list for PBXNativeTarget "Reachability" */;
+			buildPhases = (
+				EDA2795D49B95C87777C148199368ACD /* Sources */,
+				B2B5E35697DDFCADBC4613F58EB8CBFB /* Frameworks */,
+				600C79E05FD1CA2006F28C10F72563D7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reachability;
+			productName = Reachability;
+			productReference = 98E56998B1FFADCEDE06C7C1EF665F88 /* libReachability.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F5954A7AC2C86CC0827E941E29AE59A8 /* LazyScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63B4A07541FBC29D95165361A09E7352 /* Build configuration list for PBXNativeTarget "LazyScroll" */;
+			buildPhases = (
+				A9558FA0F2872FC2088442F34A471D31 /* Sources */,
+				C4C786ED85449BACCB1AA87585CEC61D /* Frameworks */,
+				F43C1D657062D42787F48ED8193E1FE9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LazyScroll;
+			productName = LazyScroll;
+			productReference = D64FDEEB220E53D63425DB5D4AC953E0 /* libLazyScroll.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FD70EC4431E95C2056B812ED00ABE76F /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E79CAE4C8B7605ECBD2F96D4FC4752D /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				C2F679BC5EEB99621C312738C1246408 /* Sources */,
+				3A57940558A747FF205CD0084BA5076D /* Frameworks */,
+				67D9FFED1E8BB0ADD781B2913D559750 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = D9065B1092AE4DF23A4C3D07782DA697 /* libSDWebImage.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9C97A7B298132CEA0CE749C37FDE3942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5954A7AC2C86CC0827E941E29AE59A8 /* LazyScroll */,
+				9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */,
+				ABB79C784B7E061B6679E0FD9A2BE0C9 /* Pods-TangramCategoryDemo */,
+				CD7BA3BC76289024B4A0069BF14F3348 /* Reachability */,
+				FD70EC4431E95C2056B812ED00ABE76F /* SDWebImage */,
+				07E1461D8385CE1EDA05A353DA6F814F /* Tangram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09CE2414FAD58B93A2D85285A4A1A1AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F3908C9FB41A837D2748BDF0E6D3AFA /* Tangram-dummy.m in Sources */,
+				154CF23C61F0C4FD43BFED2DFB2CDA95 /* TangramBus.m in Sources */,
+				8896A6B70A2232C93AE10DE75AB03947 /* TangramBusIndex.m in Sources */,
+				42569F1EA853CB831325D84D4C11832B /* TangramBusIndexClass.m in Sources */,
+				1076E9F1C6D19BD69A978F0CF1862E9C /* TangramBusIndexTopic.m in Sources */,
+				2B38A4A632BD3D498C35A1E70B15D5A6 /* TangramContext.m in Sources */,
+				ACAF9EF0E9FC2E40A22335EF2C624389 /* TangramDefaultDataSourceHelper.m in Sources */,
+				9CC99FC323A74171E8FD36CF4014A43A /* TangramDefaultElementFactory.m in Sources */,
+				EB5B519FB0CF52024F291696C95B0F65 /* TangramDefaultItemModel.m in Sources */,
+				DEDDE3BEDBD022B54E17A0FB90E30C74 /* TangramDefaultItemModelFactory.m in Sources */,
+				8D4286C91E0FD08F814A895592E03375 /* TangramDefaultLayoutFactory.m in Sources */,
+				0AD714906B0DDD3EC297F2F18D01071E /* TangramDoubleColumnLayout.m in Sources */,
+				964DCEA14338C2B5BA97DA8D9E1AFE65 /* TangramDragableLayout.m in Sources */,
+				9CE12926741EED0D2DD3F25124F553CD /* TangramEvent.m in Sources */,
+				6F612B6A08D432BE3CE40D75493B64D1 /* TangramEventDispatcher.m in Sources */,
+				6509D23D5F1092B8BF4AEBC035126169 /* TangramEventQueue.m in Sources */,
+				49C1201EAD6F20B4630674E4B38F3CD2 /* TangramFixBottomLayout.m in Sources */,
+				12936EFF8FC1660165E1856B3DEC7995 /* TangramFixLayout.m in Sources */,
+				8A180775A2501AFC69A8E6125BC5C61E /* TangramFixTopLayout.m in Sources */,
+				8F89752C6D53796A8B3E6F74AB58E050 /* TangramFlowLayout.m in Sources */,
+				F8138E4254D86B8C257AB88E0B7E4763 /* TangramLayoutParseHelper.m in Sources */,
+				2A7FCFDD82BD52DA170BB1BD5AF0D462 /* TangramPageScrollLayout.m in Sources */,
+				D2183FA0E6F325C43A5CF5C4C28D5232 /* TangramQuintetColumnLayout.m in Sources */,
+				DFC4C414C9A37A408414BC50E26737F2 /* TangramSafeMethod.m in Sources */,
+				CDE1B3CC0BB4F6DA1A8DD21877E5F3CD /* TangramSingleAndDoubleLayout.m in Sources */,
+				0856DF808F9F39746C7BEF1D05BDE4D9 /* TangramSingleColumnLayout.m in Sources */,
+				4B859837E9ACD862E6F08A90C7E7F340 /* TangramStickyBottomLayout.m in Sources */,
+				AB2E0674C62BC3CBCEA839075307DF1A /* TangramStickyLayout.m in Sources */,
+				337767C6A68C8831EFC01E5A63CF4F22 /* TangramTetradColumnLayout.m in Sources */,
+				916928EC565AA85E0F95451478D6C695 /* TangramTribleColumnLayout.m in Sources */,
+				475019CF122019F39FC31E129C7514D9 /* TangramView.m in Sources */,
+				5AF445D7C129296547A92C61D89FA4A5 /* TangramWaterFlowLayout.m in Sources */,
+				5B3C8C4D335D9591A1140CC35C3EAD02 /* UIView+Tangram.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9558FA0F2872FC2088442F34A471D31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA58458F6528107FDDE0706ABEFE869 /* LazyScroll-dummy.m in Sources */,
+				0E39412A14F45C801275957612C2E9AB /* TMMuiLazyScrollView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC8D7C36341EDB2E10D114097073C56E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DA098FC8D9B02E647502EA225AB687 /* Pods-TangramCategoryDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F679BC5EEB99621C312738C1246408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D7B90CB0734941771F0720CB19E3B5 /* NSData+ImageContentType.m in Sources */,
+				3AAEF706E917518B9A634AD0175C728E /* SDImageCache.m in Sources */,
+				35BBC1457998C33DEE5DA8A88C59AB7C /* SDWebImage-dummy.m in Sources */,
+				407087DF25533E5438C08E53DB06DAA3 /* SDWebImageCompat.m in Sources */,
+				06594CD4E4479BCCCAC231E58E6D27DA /* SDWebImageDecoder.m in Sources */,
+				ED3729EC28F2C307B274F0E4C397FBAE /* SDWebImageDownloader.m in Sources */,
+				7F89828FD965DBCBEBDFA970266839CA /* SDWebImageDownloaderOperation.m in Sources */,
+				B174E978959BB314DFD2C7D118E0B0EA /* SDWebImageManager.m in Sources */,
+				6E21E3839EE6B24A96A0FCCB0E5987E3 /* SDWebImagePrefetcher.m in Sources */,
+				234E6711C6AF2297630808303A57CCC2 /* UIButton+WebCache.m in Sources */,
+				F1BED807A90DB12A40DD09A466BD1204 /* UIImage+GIF.m in Sources */,
+				56A1F0D53259D1A63FDFFEC58C742537 /* UIImage+MultiFormat.m in Sources */,
+				CE516AEE541B684BD4C99C3CCC702CEE /* UIImageView+HighlightedWebCache.m in Sources */,
+				570A919089B441CDAC209333AE6A01E1 /* UIImageView+WebCache.m in Sources */,
+				99EC2CE4AD2803D8C9E2085D12C7A929 /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4BE2DC1E815E7367562323223772531 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61CCEA01CBE8EFFA5515E7A0D8635AAE /* MASCompositeConstraint.m in Sources */,
+				89450A58FD91E5B227171FC75160E4EA /* MASConstraint.m in Sources */,
+				DF7F88B58B564EDF169EC0C9CF8E5124 /* MASConstraintMaker.m in Sources */,
+				955BE39896CA35F2A585DC3309E5FDA5 /* MASLayoutConstraint.m in Sources */,
+				68F98758BA84B8EC3472A8C6FD646D16 /* Masonry-dummy.m in Sources */,
+				13635B78121B99E5C03C92506A161607 /* MASViewAttribute.m in Sources */,
+				2DBB74B8B5DDB1F621433DD12BF35102 /* MASViewConstraint.m in Sources */,
+				7BDDE51AF16FA53A09506EDB91E1C3C2 /* NSArray+MASAdditions.m in Sources */,
+				3E8E6916C563B9CB12AA417275FC6EB3 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A1FA046FDFC42676D17FEC387B10D24A /* View+MASAdditions.m in Sources */,
+				D7CE05A743B7ACD50796191FA442814C /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDA2795D49B95C87777C148199368ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A10CF8194690190CCE61A12B16BEB91 /* Reachability-dummy.m in Sources */,
+				6D85F0F117E65A5B542DEF3870B21BBF /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3E27D4750AFA691D5E3844F1365F66E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Reachability;
+			target = CD7BA3BC76289024B4A0069BF14F3348 /* Reachability */;
+			targetProxy = 27A999E22B21BFCE3A20E1E1E7FE3A7F /* PBXContainerItemProxy */;
+		};
+		46A4F9002D395A5D000EC5CC774A0E75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */;
+			targetProxy = 53592B81C39736CE99556768AEC98833 /* PBXContainerItemProxy */;
+		};
+		567D5F7B5565C9BF60FAEEAD2D776F6F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = FD70EC4431E95C2056B812ED00ABE76F /* SDWebImage */;
+			targetProxy = 26E5B763C5334CE675F15967CDD46312 /* PBXContainerItemProxy */;
+		};
+		AD19CA80D26EA00FEACFC4618CB77699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LazyScroll;
+			target = F5954A7AC2C86CC0827E941E29AE59A8 /* LazyScroll */;
+			targetProxy = 9EBE973C180C27E9545274C9C6DB86E0 /* PBXContainerItemProxy */;
+		};
+		D24EC98242650E2B58C719C13E38AAEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LazyScroll;
+			target = F5954A7AC2C86CC0827E941E29AE59A8 /* LazyScroll */;
+			targetProxy = D7C5142510486F427483074413B417AA /* PBXContainerItemProxy */;
+		};
+		D4EE209F041E0B771E8F7F3A39305E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Tangram;
+			target = 07E1461D8385CE1EDA05A353DA6F814F /* Tangram */;
+			targetProxy = E299B0B546C1B6F37A46AC7FF7A4117B /* PBXContainerItemProxy */;
+		};
+		F639309D77975A53FEDE74C3984612C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = FD70EC4431E95C2056B812ED00ABE76F /* SDWebImage */;
+			targetProxy = FA59612452FC7B3EBD92D2560C830BAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		001B14857A566FF3E7A41457305D1B25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A262C1F17557F118AB595B2FF2B7789 /* Pods-TangramCategoryDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0AFC079219F3EF23ADFC734F65761726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF39BADDBEFDE9289F2E3ECE52E1320 /* LazyScroll.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LazyScroll/LazyScroll-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1EBBE9149E5B37F45F61E83FB7D69470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 312861F55F21550055F86560C8E575A2 /* Pods-TangramCategoryDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2C33030F590CFBE7722B3A680B937336 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D408B8FC3586E24689BBB896126AF6C2 /* Reachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		30F13574BC9131039BC9FBE0AC0E5D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CDCBEFA2DE61D29443C2BB3D062B90 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		35132E5B8212386C171B51D3742C80D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78BCB59DCECCEA38FF94D4BC78C0F0B /* Tangram.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Tangram/Tangram-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3890D7C92DE120C2BA762135796CFA80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4362B17C2446209588FD24BA140E8A77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D408B8FC3586E24689BBB896126AF6C2 /* Reachability.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Reachability/Reachability-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		54042415062D21633BDCC1D3E65A488F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1CDCBEFA2DE61D29443C2BB3D062B90 /* SDWebImage.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		587B8ECC28E3A9FF4796C121925DC113 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5A6ACE61C4D128598EA7472C87982601 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01D6F4F29A52D0B40EFBAD19DAAF1E1 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6CA42F62CE0652819ED46936FE31E065 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D01D6F4F29A52D0B40EFBAD19DAAF1E1 /* Masonry.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7C8B2EBECF6C644AAC7BF372D985714F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BF39BADDBEFDE9289F2E3ECE52E1320 /* LazyScroll.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LazyScroll/LazyScroll-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAC319B3969119E1CBB1D4BB20AD077A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E78BCB59DCECCEA38FF94D4BC78C0F0B /* Tangram.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Tangram/Tangram-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E79CAE4C8B7605ECBD2F96D4FC4752D /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30F13574BC9131039BC9FBE0AC0E5D20 /* Debug */,
+				54042415062D21633BDCC1D3E65A488F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				587B8ECC28E3A9FF4796C121925DC113 /* Debug */,
+				3890D7C92DE120C2BA762135796CFA80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A6ACE61C4D128598EA7472C87982601 /* Debug */,
+				6CA42F62CE0652819ED46936FE31E065 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CEA93AA877DB6E1C27F1D5BCCA20D90 /* Build configuration list for PBXNativeTarget "Tangram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC319B3969119E1CBB1D4BB20AD077A /* Debug */,
+				35132E5B8212386C171B51D3742C80D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63B4A07541FBC29D95165361A09E7352 /* Build configuration list for PBXNativeTarget "LazyScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C8B2EBECF6C644AAC7BF372D985714F /* Debug */,
+				0AFC079219F3EF23ADFC734F65761726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6DA1A432562D6A8C65A70E247F3B175 /* Build configuration list for PBXNativeTarget "Pods-TangramCategoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EBBE9149E5B37F45F61E83FB7D69470 /* Debug */,
+				001B14857A566FF3E7A41457305D1B25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0CEBE25AF4B3826CA0E51577E38D13 /* Build configuration list for PBXNativeTarget "Reachability" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4362B17C2446209588FD24BA140E8A77 /* Debug */,
+				2C33030F590CFBE7722B3A680B937336 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

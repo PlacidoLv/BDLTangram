@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		48E7480F7597DB84D263E3A0 /* libPods-TangramCategoryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA58A5BB667EC204681EA16 /* libPods-TangramCategoryDemo.a */; };
+		A9AEE0801F2860A6009AACBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEE07F1F2860A6009AACBE /* main.m */; };
+		A9AEE0831F2860A6009AACBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEE0821F2860A6009AACBE /* AppDelegate.m */; };
+		A9AEE0861F2860A6009AACBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEE0851F2860A6009AACBE /* ViewController.m */; };
+		A9AEE0891F2860A6009AACBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AEE0871F2860A6009AACBE /* Main.storyboard */; };
+		A9AEE08B1F2860A6009AACBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9AEE08A1F2860A6009AACBE /* Assets.xcassets */; };
+		A9AEE08E1F2860A6009AACBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9AEE08C1F2860A6009AACBE /* LaunchScreen.storyboard */; };
+		A9AEE0991F2860A7009AACBE /* TangramCategoryDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEE0981F2860A7009AACBE /* TangramCategoryDemoTests.m */; };
+		A9AEE0A41F2860A7009AACBE /* TangramCategoryDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEE0A31F2860A7009AACBE /* TangramCategoryDemoUITests.m */; };
+		A9AEE0B81F2861C0009AACBE /* TangramMock.json in Resources */ = {isa = PBXBuildFile; fileRef = A9AEE0B71F2861C0009AACBE /* TangramMock.json */; };
+		A9AEE0C41F28625C009AACBE /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEE0BC1F28625C009AACBE /* CategoryViewController.m */; };
+		A9AEE0C51F28625C009AACBE /* CategoryElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEE0BF1F28625C009AACBE /* CategoryElement.m */; };
+		A9AEE0C61F28625C009AACBE /* CategoryLeftTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEE0C11F28625C009AACBE /* CategoryLeftTableViewCell.m */; };
+		A9AEE0C71F28625C009AACBE /* CategoryRightTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEE0C31F28625C009AACBE /* CategoryRightTableViewCell.m */; };
+		A9AEE0CD1F287F7A009AACBE /* UILabel+BDL.m in Sources */ = {isa = PBXBuildFile; fileRef = A9AEE0CC1F287F7A009AACBE /* UILabel+BDL.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9AEE0951F2860A7009AACBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9AEE0731F2860A6009AACBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9AEE07A1F2860A6009AACBE;
+			remoteInfo = TangramCategoryDemo;
+		};
+		A9AEE0A01F2860A7009AACBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9AEE0731F2860A6009AACBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9AEE07A1F2860A6009AACBE;
+			remoteInfo = TangramCategoryDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BA58A5BB667EC204681EA16 /* libPods-TangramCategoryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TangramCategoryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B9582E3BC348989184FEF37 /* Pods-TangramCategoryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangramCategoryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TangramCategoryDemo/Pods-TangramCategoryDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9641D7A879C894C9515F2014 /* Pods-TangramCategoryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TangramCategoryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TangramCategoryDemo/Pods-TangramCategoryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A9AEE07B1F2860A6009AACBE /* TangramCategoryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TangramCategoryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AEE07F1F2860A6009AACBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9AEE0811F2860A6009AACBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9AEE0821F2860A6009AACBE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9AEE0841F2860A6009AACBE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A9AEE0851F2860A6009AACBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A9AEE0881F2860A6009AACBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9AEE08A1F2860A6009AACBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9AEE08D1F2860A6009AACBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9AEE08F1F2860A6009AACBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AEE0941F2860A7009AACBE /* TangramCategoryDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangramCategoryDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AEE0981F2860A7009AACBE /* TangramCategoryDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TangramCategoryDemoTests.m; sourceTree = "<group>"; };
+		A9AEE09A1F2860A7009AACBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AEE09F1F2860A7009AACBE /* TangramCategoryDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TangramCategoryDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9AEE0A31F2860A7009AACBE /* TangramCategoryDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TangramCategoryDemoUITests.m; sourceTree = "<group>"; };
+		A9AEE0A51F2860A7009AACBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9AEE0B71F2861C0009AACBE /* TangramMock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TangramMock.json; sourceTree = "<group>"; };
+		A9AEE0BB1F28625C009AACBE /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		A9AEE0BC1F28625C009AACBE /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		A9AEE0BE1F28625C009AACBE /* CategoryElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryElement.h; sourceTree = "<group>"; };
+		A9AEE0BF1F28625C009AACBE /* CategoryElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryElement.m; sourceTree = "<group>"; };
+		A9AEE0C01F28625C009AACBE /* CategoryLeftTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryLeftTableViewCell.h; sourceTree = "<group>"; };
+		A9AEE0C11F28625C009AACBE /* CategoryLeftTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryLeftTableViewCell.m; sourceTree = "<group>"; };
+		A9AEE0C21F28625C009AACBE /* CategoryRightTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryRightTableViewCell.h; sourceTree = "<group>"; };
+		A9AEE0C31F28625C009AACBE /* CategoryRightTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryRightTableViewCell.m; sourceTree = "<group>"; };
+		A9AEE0CB1F287F7A009AACBE /* UILabel+BDL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+BDL.h"; sourceTree = "<group>"; };
+		A9AEE0CC1F287F7A009AACBE /* UILabel+BDL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+BDL.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9AEE0781F2860A6009AACBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48E7480F7597DB84D263E3A0 /* libPods-TangramCategoryDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AEE0911F2860A7009AACBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AEE09C1F2860A7009AACBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00F13D94AA5856F362CC34E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8B9582E3BC348989184FEF37 /* Pods-TangramCategoryDemo.debug.xcconfig */,
+				9641D7A879C894C9515F2014 /* Pods-TangramCategoryDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		11F5FA3C9A7C24408DDDC1D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BA58A5BB667EC204681EA16 /* libPods-TangramCategoryDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9AEE0721F2860A6009AACBE = {
+			isa = PBXGroup;
+			children = (
+				A9AEE07D1F2860A6009AACBE /* TangramCategoryDemo */,
+				A9AEE0971F2860A7009AACBE /* TangramCategoryDemoTests */,
+				A9AEE0A21F2860A7009AACBE /* TangramCategoryDemoUITests */,
+				A9AEE07C1F2860A6009AACBE /* Products */,
+				00F13D94AA5856F362CC34E7 /* Pods */,
+				11F5FA3C9A7C24408DDDC1D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A9AEE07C1F2860A6009AACBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9AEE07B1F2860A6009AACBE /* TangramCategoryDemo.app */,
+				A9AEE0941F2860A7009AACBE /* TangramCategoryDemoTests.xctest */,
+				A9AEE09F1F2860A7009AACBE /* TangramCategoryDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9AEE07D1F2860A6009AACBE /* TangramCategoryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A9AEE0811F2860A6009AACBE /* AppDelegate.h */,
+				A9AEE0821F2860A6009AACBE /* AppDelegate.m */,
+				A9AEE0B71F2861C0009AACBE /* TangramMock.json */,
+				A9AEE0B91F28625C009AACBE /* Category */,
+				A9AEE0841F2860A6009AACBE /* ViewController.h */,
+				A9AEE0851F2860A6009AACBE /* ViewController.m */,
+				A9AEE0871F2860A6009AACBE /* Main.storyboard */,
+				A9AEE08A1F2860A6009AACBE /* Assets.xcassets */,
+				A9AEE08C1F2860A6009AACBE /* LaunchScreen.storyboard */,
+				A9AEE08F1F2860A6009AACBE /* Info.plist */,
+				A9AEE07E1F2860A6009AACBE /* Supporting Files */,
+			);
+			path = TangramCategoryDemo;
+			sourceTree = "<group>";
+		};
+		A9AEE07E1F2860A6009AACBE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9AEE07F1F2860A6009AACBE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9AEE0971F2860A7009AACBE /* TangramCategoryDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9AEE0981F2860A7009AACBE /* TangramCategoryDemoTests.m */,
+				A9AEE09A1F2860A7009AACBE /* Info.plist */,
+			);
+			path = TangramCategoryDemoTests;
+			sourceTree = "<group>";
+		};
+		A9AEE0A21F2860A7009AACBE /* TangramCategoryDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9AEE0A31F2860A7009AACBE /* TangramCategoryDemoUITests.m */,
+				A9AEE0A51F2860A7009AACBE /* Info.plist */,
+			);
+			path = TangramCategoryDemoUITests;
+			sourceTree = "<group>";
+		};
+		A9AEE0B91F28625C009AACBE /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A9AEE0BA1F28625C009AACBE /* VC */,
+				A9AEE0BD1F28625C009AACBE /* View */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A9AEE0BA1F28625C009AACBE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				A9AEE0BB1F28625C009AACBE /* CategoryViewController.h */,
+				A9AEE0BC1F28625C009AACBE /* CategoryViewController.m */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		A9AEE0BD1F28625C009AACBE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9AEE0BE1F28625C009AACBE /* CategoryElement.h */,
+				A9AEE0BF1F28625C009AACBE /* CategoryElement.m */,
+				A9AEE0C01F28625C009AACBE /* CategoryLeftTableViewCell.h */,
+				A9AEE0C11F28625C009AACBE /* CategoryLeftTableViewCell.m */,
+				A9AEE0C21F28625C009AACBE /* CategoryRightTableViewCell.h */,
+				A9AEE0C31F28625C009AACBE /* CategoryRightTableViewCell.m */,
+				A9AEE0CB1F287F7A009AACBE /* UILabel+BDL.h */,
+				A9AEE0CC1F287F7A009AACBE /* UILabel+BDL.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9AEE07A1F2860A6009AACBE /* TangramCategoryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AEE0A81F2860A7009AACBE /* Build configuration list for PBXNativeTarget "TangramCategoryDemo" */;
+			buildPhases = (
+				C3EB6CF83B0BE042B9FEB6DB /* [CP] Check Pods Manifest.lock */,
+				A9AEE0771F2860A6009AACBE /* Sources */,
+				A9AEE0781F2860A6009AACBE /* Frameworks */,
+				A9AEE0791F2860A6009AACBE /* Resources */,
+				1CB0E28CDF772636DA45D38A /* [CP] Embed Pods Frameworks */,
+				E2DDD8D76A5613573F76A7B3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TangramCategoryDemo;
+			productName = TangramCategoryDemo;
+			productReference = A9AEE07B1F2860A6009AACBE /* TangramCategoryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9AEE0931F2860A7009AACBE /* TangramCategoryDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AEE0AB1F2860A7009AACBE /* Build configuration list for PBXNativeTarget "TangramCategoryDemoTests" */;
+			buildPhases = (
+				A9AEE0901F2860A7009AACBE /* Sources */,
+				A9AEE0911F2860A7009AACBE /* Frameworks */,
+				A9AEE0921F2860A7009AACBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9AEE0961F2860A7009AACBE /* PBXTargetDependency */,
+			);
+			name = TangramCategoryDemoTests;
+			productName = TangramCategoryDemoTests;
+			productReference = A9AEE0941F2860A7009AACBE /* TangramCategoryDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9AEE09E1F2860A7009AACBE /* TangramCategoryDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9AEE0AE1F2860A7009AACBE /* Build configuration list for PBXNativeTarget "TangramCategoryDemoUITests" */;
+			buildPhases = (
+				A9AEE09B1F2860A7009AACBE /* Sources */,
+				A9AEE09C1F2860A7009AACBE /* Frameworks */,
+				A9AEE09D1F2860A7009AACBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9AEE0A11F2860A7009AACBE /* PBXTargetDependency */,
+			);
+			name = TangramCategoryDemoUITests;
+			productName = TangramCategoryDemoUITests;
+			productReference = A9AEE09F1F2860A7009AACBE /* TangramCategoryDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9AEE0731F2860A6009AACBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = bdl;
+				TargetAttributes = {
+					A9AEE07A1F2860A6009AACBE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = C94G9VC8SF;
+						ProvisioningStyle = Automatic;
+					};
+					A9AEE0931F2860A7009AACBE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = C94G9VC8SF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9AEE07A1F2860A6009AACBE;
+					};
+					A9AEE09E1F2860A7009AACBE = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = C94G9VC8SF;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A9AEE07A1F2860A6009AACBE;
+					};
+				};
+			};
+			buildConfigurationList = A9AEE0761F2860A6009AACBE /* Build configuration list for PBXProject "TangramCategoryDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9AEE0721F2860A6009AACBE;
+			productRefGroup = A9AEE07C1F2860A6009AACBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9AEE07A1F2860A6009AACBE /* TangramCategoryDemo */,
+				A9AEE0931F2860A7009AACBE /* TangramCategoryDemoTests */,
+				A9AEE09E1F2860A7009AACBE /* TangramCategoryDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9AEE0791F2860A6009AACBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AEE0B81F2861C0009AACBE /* TangramMock.json in Resources */,
+				A9AEE08E1F2860A6009AACBE /* LaunchScreen.storyboard in Resources */,
+				A9AEE08B1F2860A6009AACBE /* Assets.xcassets in Resources */,
+				A9AEE0891F2860A6009AACBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AEE0921F2860A7009AACBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AEE09D1F2860A7009AACBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CB0E28CDF772636DA45D38A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TangramCategoryDemo/Pods-TangramCategoryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3EB6CF83B0BE042B9FEB6DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2DDD8D76A5613573F76A7B3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TangramCategoryDemo/Pods-TangramCategoryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9AEE0771F2860A6009AACBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AEE0C51F28625C009AACBE /* CategoryElement.m in Sources */,
+				A9AEE0861F2860A6009AACBE /* ViewController.m in Sources */,
+				A9AEE0C61F28625C009AACBE /* CategoryLeftTableViewCell.m in Sources */,
+				A9AEE0CD1F287F7A009AACBE /* UILabel+BDL.m in Sources */,
+				A9AEE0831F2860A6009AACBE /* AppDelegate.m in Sources */,
+				A9AEE0C71F28625C009AACBE /* CategoryRightTableViewCell.m in Sources */,
+				A9AEE0801F2860A6009AACBE /* main.m in Sources */,
+				A9AEE0C41F28625C009AACBE /* CategoryViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AEE0901F2860A7009AACBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AEE0991F2860A7009AACBE /* TangramCategoryDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9AEE09B1F2860A7009AACBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9AEE0A41F2860A7009AACBE /* TangramCategoryDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9AEE0961F2860A7009AACBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9AEE07A1F2860A6009AACBE /* TangramCategoryDemo */;
+			targetProxy = A9AEE0951F2860A7009AACBE /* PBXContainerItemProxy */;
+		};
+		A9AEE0A11F2860A7009AACBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9AEE07A1F2860A6009AACBE /* TangramCategoryDemo */;
+			targetProxy = A9AEE0A01F2860A7009AACBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9AEE0871F2860A6009AACBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9AEE0881F2860A6009AACBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9AEE08C1F2860A6009AACBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9AEE08D1F2860A6009AACBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9AEE0A61F2860A7009AACBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9AEE0A71F2860A7009AACBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9AEE0A91F2860A7009AACBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B9582E3BC348989184FEF37 /* Pods-TangramCategoryDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C94G9VC8SF;
+				INFOPLIST_FILE = TangramCategoryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bdl.TangramCategoryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9AEE0AA1F2860A7009AACBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9641D7A879C894C9515F2014 /* Pods-TangramCategoryDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C94G9VC8SF;
+				INFOPLIST_FILE = TangramCategoryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bdl.TangramCategoryDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A9AEE0AC1F2860A7009AACBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C94G9VC8SF;
+				INFOPLIST_FILE = TangramCategoryDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bdl.TangramCategoryDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TangramCategoryDemo.app/TangramCategoryDemo";
+			};
+			name = Debug;
+		};
+		A9AEE0AD1F2860A7009AACBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = C94G9VC8SF;
+				INFOPLIST_FILE = TangramCategoryDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bdl.TangramCategoryDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TangramCategoryDemo.app/TangramCategoryDemo";
+			};
+			name = Release;
+		};
+		A9AEE0AF1F2860A7009AACBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C94G9VC8SF;
+				INFOPLIST_FILE = TangramCategoryDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bdl.TangramCategoryDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TangramCategoryDemo;
+			};
+			name = Debug;
+		};
+		A9AEE0B01F2860A7009AACBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = C94G9VC8SF;
+				INFOPLIST_FILE = TangramCategoryDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = bdl.TangramCategoryDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TangramCategoryDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9AEE0761F2860A6009AACBE /* Build configuration list for PBXProject "TangramCategoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AEE0A61F2860A7009AACBE /* Debug */,
+				A9AEE0A71F2860A7009AACBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9AEE0A81F2860A7009AACBE /* Build configuration list for PBXNativeTarget "TangramCategoryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AEE0A91F2860A7009AACBE /* Debug */,
+				A9AEE0AA1F2860A7009AACBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9AEE0AB1F2860A7009AACBE /* Build configuration list for PBXNativeTarget "TangramCategoryDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AEE0AC1F2860A7009AACBE /* Debug */,
+				A9AEE0AD1F2860A7009AACBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9AEE0AE1F2860A7009AACBE /* Build configuration list for PBXNativeTarget "TangramCategoryDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9AEE0AF1F2860A7009AACBE /* Debug */,
+				A9AEE0B01F2860A7009AACBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9AEE0731F2860A6009AACBE /* Project object */;
+}

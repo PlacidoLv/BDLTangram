@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
-  s.name         = “BDLTangram“
-  s.version      = “1.0.0”
+  s.name         = "BDLTangram"
+  s.version      = "1.0.0"
   s.summary      = "Tangram is a UI Framework for building a fast and dynamic ScrollView."
   
   s.description  = <<-DESC
@@ -11,11 +11,11 @@ Pod::Spec.new do |s|
   s.license      = {
     :type => 'MIT'
   }
-  s.author       = { “PlacidoLv” => “723691619@qq.com" }
+  s.author       = { "PlacidoLv" => “723691619@qq.com" }
   s.platform     = :ios
-  s.ios.deployment_target = ‘8.0’
+  s.ios.deployment_target = '8.0'
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/PlacidoLv/BDLTangram.git", :tag => “1.0.0” }
+  s.source       = { :git => "https://github.com/PlacidoLv/BDLTangram.git", :tag => "1.0.0" }
   s.resources    = 'Tangram/Resource/*.{plist,json}'
   s.source_files = 'Tangram/Source/**/*.{h,m}'
   

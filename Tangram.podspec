@@ -1,21 +1,21 @@
 Pod::Spec.new do |s|
-  s.name         = "Tangram"
-  s.version      = "1.0.6"
+  s.name         = “BDLTangram“
+  s.version      = “1.0.0”
   s.summary      = "Tangram is a UI Framework for building a fast and dynamic ScrollView."
   
   s.description  = <<-DESC
                    Tangram is a UI Framework for building a fast and dynamic ScrollView, with two platform support(Android & iOS)
                    DESC
 
-  s.homepage     = "https://github.com/alibaba/tangram-ios"
+  s.homepage     = "https://github.com/PlacidoLv/BDLTangram"
   s.license      = {
     :type => 'MIT'
   }
-  s.author       = { "fydx" => "lbgg918@gmail.com" }
+  s.author       = { “PlacidoLv” => “723691619@qq.com" }
   s.platform     = :ios
-  s.ios.deployment_target = '7.0'
+  s.ios.deployment_target = ‘8.0’
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/alibaba/Tangram-iOS.git", :tag => "1.0.6" }
+  s.source       = { :git => "https://github.com/PlacidoLv/BDLTangram.git", :tag => “1.0.0” }
   s.resources    = 'Tangram/Resource/*.{plist,json}'
   s.source_files = 'Tangram/Source/**/*.{h,m}'
   

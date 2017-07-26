@@ -15,9 +15,9 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
   s.requires_arc = true
-  s.source       = { :git => "https://github.com/PlacidoLv/BDLTangram.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/PlacidoLv/BDLTangram.git", :tag => s.version }
   s.resources    = 'Tangram/Resource/*.{plist,json}'
-  s.source_files = 'Tangram/Source/**/*.{h,m}'
+  s.source_files = 'Tangram/**/**/*.{h,m}'
   
   s.dependency  'LazyScroll', '~>0.0.2'
   s.dependency  'SDWebImage', '~>3.7'
